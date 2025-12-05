@@ -6,6 +6,9 @@ on:
     - cron: '0 */4 * * *'
   workflow_dispatch: # Allow manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   refresh-data:
     runs-on: ubuntu-latest
@@ -24,12 +27,15 @@ jobs:
         
       - name: Run scrape
         run: npm run scrape
+        continue-on-error: true
         
       - name: Run detailed scrape
         run: npm run detailedscrape
+        continue-on-error: true
         
       - name: Combine details
         run: npm run combinedetails
+        continue-on-error: true
         
       - name: Commit and push changes
         run: |
