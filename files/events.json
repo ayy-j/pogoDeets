@@ -360,7 +360,213 @@
                         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_475_00_shiny.png"
                     }
                 ],
-                "specialresearch": []
+                "specialresearch": [
+                    {
+                        "name": "December Community Day 2025 (1/5)",
+                        "step": 1,
+                        "tasks": [
+                            {
+                                "text": "Transfer 15 Pokémon",
+                                "reward": {
+                                    "text": " Sprigatito ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 25 Pokémon",
+                                "reward": {
+                                    "text": " Shelmet ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_616_00.png"
+                                }
+                            },
+                            {
+                                "text": "Make 10 Nice Throws",
+                                "reward": {
+                                    "text": " Karrablast ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_588_00.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Ralts",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_280_00.png"
+                            },
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                            },
+                            {
+                                "text": "×2025",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "December Community Day 2025 (2/5)",
+                        "step": 2,
+                        "tasks": [
+                            {
+                                "text": "Make 10 Great Curveball Throws",
+                                "reward": {
+                                    "text": " Fuecoco ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm909.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 30 Pokémon",
+                                "reward": {
+                                    "text": " Vanillite ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_582_00.png"
+                                }
+                            },
+                            {
+                                "text": "Evolve 5 Pokémon",
+                                "reward": {
+                                    "text": " Pawmi ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm921.icon.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Totodile",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_158_00.png"
+                            },
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Star%20Piece.png"
+                            },
+                            {
+                                "text": "2025 XP",
+                                "image": "https://leekduck.com/assets/img/icons/xp.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "December Community Day 2025 (3/5)",
+                        "step": 3,
+                        "tasks": [
+                            {
+                                "text": "Power up Pokémon 15 times",
+                                "reward": {
+                                    "text": " Jangmo-o ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 35 Pokémon",
+                                "reward": {
+                                    "text": " Quaxly ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Transfer 20 Pokémon",
+                                "reward": {
+                                    "text": " Rookidee ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm821.icon.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Machop",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_066_00.png"
+                            },
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
+                            },
+                            {
+                                "text": "×2025",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "December Community Day 2025 (4/5)",
+                        "step": 4,
+                        "tasks": [
+                            {
+                                "text": "Power up Pokémon 30 times",
+                                "reward": {
+                                    "text": " Flabébé (Red) ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fRED.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 40 Pokémon",
+                                "reward": {
+                                    "text": " Solosis ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_577_00.png"
+                                }
+                            },
+                            {
+                                "text": "Evolve 10 Pokémon",
+                                "reward": {
+                                    "text": " Pikipek ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm731.icon.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Eevee",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_133_00.png"
+                            },
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Incubator.png"
+                            },
+                            {
+                                "text": "2025 XP",
+                                "image": "https://leekduck.com/assets/img/icons/xp.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "December Community Day 2025 (5/5)",
+                        "step": 5,
+                        "tasks": [
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": "Rocket Radar ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": "Silver Pinap Berry ×3",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": "Poffin ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Poffin.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Elite%20Fast%20TM.png"
+                            },
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Elite%20Charged%20TM.png"
+                            },
+                            {
+                                "text": "×3",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                            }
+                        ]
+                    }
+                ]
             },
             "generic": {
                 "hasSpawns": true,
