@@ -53,22 +53,45 @@ function get()
                         pokemon.isRegional = e.querySelector(".regional-icon") != null;
                         pokemon.isGiftExchange = currentGiftExchange;
 
-                        var cpText = e.querySelector(".cp-range").innerHTML;
-                        var cpValue = cpText.replace('<span class="label">CP </span>', '').trim();
-                        
-                        // Logic to handle single CP value if no range is provided 
-                        if (cpValue.includes(' - ')) {
-                            pokemon.combatPower.min = parseInt(cpValue.split(' - ')[0]);
-                            pokemon.combatPower.max = parseInt(cpValue.split(' - ')[1]);
-                        } else {
-                            pokemon.combatPower.min = parseInt(cpValue);
-                            pokemon.combatPower.max = parseInt(cpValue);
+                        var cpRangeElement = e.querySelector(".cp-range");
+                        if (cpRangeElement) {
+                            var cpText = cpRangeElement.innerHTML;
+                            var cpValue = cpText.replace('<span class="label">CP </span>', '').trim();
+                            
+                            // Logic to handle single CP value if no range is provided 
+                            if (cpValue.includes(' - ')) {
+                                pokemon.combatPower.min = parseInt(cpValue.split(' - ')[0]);
+                                pokemon.combatPower.max = parseInt(cpValue.split(' - ')[1]);
+                            } else {
+                                pokemon.combatPower.min = parseInt(cpValue);
+                                pokemon.combatPower.max = parseInt(cpValue);
+                            }
                         }
 
+                        // Rarity is indicated by the number of mini-egg icons (1-5)
+                        // Higher number = rarer Pokemon
                         var rarityDiv = e.querySelector(".rarity");
                         if (rarityDiv) {
                             var miniEggs = rarityDiv.querySelectorAll("svg.mini-egg");
-                            pokemon.rarity = miniEggs.length;
+                            var rarityCount = miniEggs.length;
+                            pokemon.rarity = rarityCount;
+                            
+                            // Add descriptive rarity tier
+                            if (rarityCount === 1) {
+                                pokemon.rarityTier = "Common";
+                            } else if (rarityCount === 2) {
+                                pokemon.rarityTier = "Uncommon";
+                            } else if (rarityCount === 3) {
+                                pokemon.rarityTier = "Rare";
+                            } else if (rarityCount === 4) {
+                                pokemon.rarityTier = "Very Rare";
+                            } else if (rarityCount === 5) {
+                                pokemon.rarityTier = "Ultra Rare";
+                            } else {
+                                pokemon.rarityTier = "Unknown";
+                            }
+                        } else {
+                            pokemon.rarityTier = "Unknown";
                         }
 
                         eggs.push(pokemon);

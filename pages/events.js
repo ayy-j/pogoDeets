@@ -46,6 +46,27 @@ function get()
                         {
                             var heading = e.querySelector(":scope > .event-item-wrapper > p").innerHTML;
                             var name = e.querySelector(":scope > .event-item-wrapper > .event-item > .event-text-container > .event-text > h2").innerHTML;
+                            
+                            // Extract timezone from paragraph text which contains the full date
+                            var paragraphElement = e.querySelector(":scope > .event-item-wrapper > .event-item > .event-text-container > .event-text > p");
+                            var timezone = null;
+                            if (paragraphElement) {
+                                var paragraphText = paragraphElement.textContent || paragraphElement.innerHTML;
+                                if (paragraphText.includes("Local Time")) {
+                                    timezone = "Local Time";
+                                } else if (paragraphText.includes(" PST")) {
+                                    timezone = "PST";
+                                } else if (paragraphText.includes(" PDT")) {
+                                    timezone = "PDT";
+                                } else if (paragraphText.includes(" EST")) {
+                                    timezone = "EST";
+                                } else if (paragraphText.includes(" EDT")) {
+                                    timezone = "EDT";
+                                } else if (paragraphText.includes(" UTC")) {
+                                    timezone = "UTC";
+                                }
+                            }
+                            
                             var image = e.querySelector(":scope > .event-item-wrapper > .event-item > .event-img-wrapper > img").src;
                             if (image.includes("cdn-cgi"))
                             {
@@ -76,7 +97,7 @@ function get()
                                 end = "" + new Date(Date.parse(end)).toISOString();
                             }
         
-                            allEvents.push({ "eventID": eventID, "name": name, "eventType": eventType, "heading": heading, "link": link, "image": image, "start": start, "end": end, "extraData": null });
+                            allEvents.push({ "eventID": eventID, "name": name, "eventType": eventType, "heading": heading, "link": link, "image": image, "start": start, "end": end, "timezone": timezone, "extraData": null });
                         });
                     });
         

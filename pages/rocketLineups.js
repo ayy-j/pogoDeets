@@ -17,6 +17,7 @@ function get() {
                     name: "",
                     title: "",
                     type: "",
+                    gender: null,
                     firstPokemon: [],
                     secondPokemon: [],
                     thirdPokemon: [],
@@ -29,6 +30,17 @@ function get() {
                 lineup.name = nameElement ? nameElement.textContent.replace(/\s+/g, ' ').trim() : ""; // Scraped text contains non-breaking spaces, hence the regex replace
                 lineup.title = titleElement ? titleElement.textContent.trim() : ""; 
                 lineup.type = typeElement ? typeElement.src.replace('.png', '').split('/').pop().toLowerCase() : "";
+                
+                // Extract gender from name if it contains Male/Female
+                if (lineup.name.includes("Male")) {
+                    lineup.gender = "Male";
+                } else if (lineup.name.includes("Female")) {
+                    lineup.gender = "Female";
+                } else if (lineup.name === "Giovanni" || lineup.name === "Cliff" || lineup.name === "Arlo") {
+                    lineup.gender = "Male";
+                } else if (lineup.name === "Sierra") {
+                    lineup.gender = "Female";
+                }
 
                 let slots = profile.querySelectorAll('.slot');
                 
