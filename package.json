@@ -11,6 +11,7 @@
   "author": "atrophy",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/storage": "^7.11.0",
     "jsdom": "21.1.1",
     "moment": "latest"
   }

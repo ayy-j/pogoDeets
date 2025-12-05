@@ -1,8 +1,8 @@
-const fs = require('fs');
 const moment = require('moment');
 const jsd = require('jsdom');
 const { JSDOM } = jsd;
 const https = require('https');
+const { uploadFile } = require('../googleCloud');
 
 function get()
 {
@@ -126,18 +126,8 @@ function get()
                         }
                     }
         
-                    fs.writeFile('files/events.json', JSON.stringify(allEvents, null, 4), err => {
-                        if (err) {
-                            console.error(err);
-                            return;
-                        }
-                    });
-                    fs.writeFile('files/events.min.json', JSON.stringify(allEvents), err => {
-                        if (err) {
-                            console.error(err);
-                            return;
-                        }
-                    });
+                    uploadFile('files/events.json', JSON.stringify(allEvents, null, 4));
+                    uploadFile('files/events.min.json', JSON.stringify(allEvents));
                 }).catch(_err =>
                 {
                     console.log(_err);

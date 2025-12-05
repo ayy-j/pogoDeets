@@ -1,7 +1,7 @@
-const fs = require('fs');
 const jsd = require('jsdom');
 const { JSDOM } = jsd;
 const https = require('https');
+const { uploadFile } = require('../googleCloud');
 
 function get()
 {
@@ -99,18 +99,8 @@ function get()
                 }
             })
 
-            fs.writeFile('files/eggs.json', JSON.stringify(eggs, null, 4), err => {
-                if (err) {
-                    console.error(err);
-                    return;
-                }
-            });
-            fs.writeFile('files/eggs.min.json', JSON.stringify(eggs), err => {
-                if (err) {
-                    console.error(err);
-                    return;
-                }
-            });
+            uploadFile('files/eggs.json', JSON.stringify(eggs, null, 4));
+            uploadFile('files/eggs.min.json', JSON.stringify(eggs));
         }).catch(_err =>
             {
                 console.log(_err);
