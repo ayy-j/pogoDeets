@@ -1,7 +1,14 @@
 # Endpoints
 
-- Formatted: [`GET /files/events.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/main/files/events.json)
-- Minimized: [`GET /files/events.min.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/main/files/events.min.json)
+Access the scraped Pokémon GO event data via the following endpoints:
+
+- **Formatted (Human-readable)**: [`GET /files/events.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.json)
+  - Includes indentation and line breaks for easy reading
+  - URL: `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.json`
+
+- **Minimized (Compact)**: [`GET /files/events.min.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json)
+  - Single-line JSON without formatting, optimized for bandwidth
+  - URL: `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json`
 
 # Example Event Object
 
