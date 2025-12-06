@@ -1,9 +1,108 @@
 # Endpoints
 
-- Formatted: [`GET /files/raids.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/main/files/raids.json)
-- Minimized: [`GET /files/raids.min.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/main/files/raids.min.json)
+Access the scraped Pokémon GO raid boss data via the following endpoints:
 
-# Example Raid Object
+- **Formatted (Human-readable)**: [`GET /files/raids.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.json)
+  - Includes indentation and line breaks for easy reading
+  - URL: `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.json`
+
+- **Minimized (Compact)**: [`GET /files/raids.min.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json)
+  - Single-line JSON without formatting, optimized for bandwidth
+  - URL: `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json`
+
+# Data Structure
+
+The raid data is provided as an array of raid boss objects. Each object represents a Pokémon currently available in raids.
+
+## Example Raid Objects
+
+### Tier 5 Legendary Raid
+
+From the current live data:
+
+```json
+{
+    "name": "Kyurem",
+    "tier": "Tier 5",
+    "canBeShiny": true,
+    "types": [
+        {
+            "name": "dragon",
+            "image": "https://leekduck.com/assets/img/types/dragon.png"
+        },
+        {
+            "name": "ice",
+            "image": "https://leekduck.com/assets/img/types/ice.png"
+        }
+    ],
+    "combatPower": {
+        "normal": {
+            "min": 1957,
+            "max": 2042
+        },
+        "boosted": {
+            "min": 2446,
+            "max": 2553
+        }
+    },
+    "boostedWeather": [
+        {
+            "name": "windy",
+            "image": "https://leekduck.com/assets/img/weather/windy.png"
+        },
+        {
+            "name": "snow",
+            "image": "https://leekduck.com/assets/img/weather/snowy.png"
+        }
+    ],
+    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_11.png"
+}
+```
+
+### Mega Raid
+
+```json
+{
+    "name": "Mega Gyarados",
+    "tier": "Mega",
+    "canBeShiny": true,
+    "types": [
+        {
+            "name": "water",
+            "image": "https://leekduck.com/assets/img/types/water.png"
+        },
+        {
+            "name": "dark",
+            "image": "https://leekduck.com/assets/img/types/dark.png"
+        }
+    ],
+    "combatPower": {
+        "normal": {
+            "min": 1855,
+            "max": 1937
+        },
+        "boosted": {
+            "min": 2319,
+            "max": 2422
+        }
+    },
+    "boostedWeather": [
+        {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+        },
+        {
+            "name": "windy",
+            "image": "https://leekduck.com/assets/img/weather/windy.png"
+        }
+    ],
+    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm130.fMEGA.icon.png"
+}
+```
+
+### Shadow Raid (Tier 3)
+
+Shadow raids feature Shadow Pokémon that can be rescued:
 
 ```json
 {
@@ -13,11 +112,11 @@
     "types": [
         {
             "name": "bug",
-            "image": "https://www.leekduck.com/assets/img/types/bug.png"
+            "image": "https://leekduck.com/assets/img/types/bug.png"
         },
         {
             "name": "flying",
-            "image": "https://www.leekduck.com/assets/img/types/flying.png"
+            "image": "https://leekduck.com/assets/img/types/flying.png"
         }
     ],
     "combatPower": {
@@ -33,14 +132,57 @@
     "boostedWeather": [
         {
             "name": "rainy",
-            "image": "https://www.leekduck.com/assets/img/weather/rainy.png"
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
         },
         {
             "name": "windy",
-            "image": "https://www.leekduck.com/assets/img/weather/windy.png"
+            "image": "https://leekduck.com/assets/img/weather/windy.png"
         }
     ],
     "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm123.icon.png"
+}
+```
+
+### Tier 1 Raid
+
+Lower-tier raids for solo players:
+
+```json
+{
+    "name": "Geodude",
+    "tier": "Tier 1",
+    "canBeShiny": true,
+    "types": [
+        {
+            "name": "rock",
+            "image": "https://leekduck.com/assets/img/types/rock.png"
+        },
+        {
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
+        }
+    ],
+    "combatPower": {
+        "normal": {
+            "min": 688,
+            "max": 739
+        },
+        "boosted": {
+            "min": 860,
+            "max": 923
+        }
+    },
+    "boostedWeather": [
+        {
+            "name": "partly cloudy",
+            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
+        },
+        {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+        }
+    ],
+    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm74.icon.png"
 }
 ```
 

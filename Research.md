@@ -1,7 +1,14 @@
 # Endpoints
 
-- Formatted: [`GET /files/research.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/main/files/research.json)
-- Minimized: [`GET /files/research.min.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/main/files/research.min.json)
+Access the scraped Pokémon GO field research task data via the following endpoints:
+
+- **Formatted (Human-readable)**: [`GET /files/research.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.json)
+  - Includes indentation and line breaks for easy reading
+  - URL: `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.json`
+
+- **Minimized (Compact)**: [`GET /files/research.min.json`](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json)
+  - Single-line JSON without formatting, optimized for bandwidth
+  - URL: `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json`
 
 # Example Payload
 
