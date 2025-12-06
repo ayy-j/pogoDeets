@@ -91,80 +91,189 @@ Rewards are typed objects. Two shapes are currently emitted:
 | **`type`**     | `string`  | Always `"item"`. |
 | **`name`**     | `string`  | Display label from LeekDuck (often includes the quantity, e.g., `×200`). |
 | **`image`**    | `string`  | Icon for the item. |
-| **`quantity`** | `int`     | Parsed quantity (defaults to 1 when not shown). |# Endpoints
+| **`quantity`** | `int`     | Parsed quantity (defaults to 1 when not shown). |
 
-- Formatted: [`GET /data/research.json`](https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/research.json)
-- Minimized: [`GET /data/research.min.json`](https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/research.min.json)
+## Additional Examples from Live Data
 
-# Example Research Object
+### Multiple Encounter Rewards
+
+Some tasks offer a choice of encounters:
 
 ```json
 {
-    "text": "Catch 5 Pokémon",
+    "text": "Catch 7 different species of Pokémon",
     "type": "catch",
     "rewards": [
         {
-            "name": "Misdreavus",
-            "image": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_200_00.png",
+            "type": "encounter",
+            "name": "Abra",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm63.icon.png",
             "canBeShiny": true,
             "combatPower": {
-                "min": 779,
-                "max": 825
+                "min": 534,
+                "max": 575
             }
         },
         {
-            "name": "Shuppet",
-            "image": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_353_00.png",
+            "type": "encounter",
+            "name": "Hoothoot",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm163.icon.png",
             "canBeShiny": true,
             "combatPower": {
-                "min": 401,
-                "max": 436
+                "min": 262,
+                "max": 290
             }
         },
         {
-            "name": "Duskull",
-            "image": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_355_00.png",
+            "type": "encounter",
+            "name": "Karrablast",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm588.icon.png",
             "canBeShiny": true,
             "combatPower": {
-                "min": 273,
-                "max": 302
+                "min": 469,
+                "max": 506
             }
         }
     ]
 }
 ```
-# Fields
 
-| Field         | Type     | Description
-|-------------- |--------- |---------------------
-| **`text`**    | `string` | The research task text.
-| **`type`**    | `string` | The type of research.<br />Can be `event`, `catch`, `throw`, `battle`, `explore`, `training`, `rocket`, `buddy`, `ar`, `sponsored`
-| **`rewards`** | `Reward` | The rewards for completing the research Task. See [Reward](#Reward)
+### Mixed Rewards (Encounter + Items)
 
-# Other Objects
-
-## Reward
-
-### Example Object
+Many tasks offer both Pokémon encounters and item rewards:
 
 ```json
 {
-    "name": "Misdreavus",
-    "image": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_200_00.png",
-    "canBeShiny": true,
-    "combatPower": {
-        "min": 779,
-        "max": 825
-    }
+    "text": "Catch a Dragon-type Pokémon",
+    "type": "catch",
+    "rewards": [
+        {
+            "type": "encounter",
+            "name": "Dratini",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+                "min": 397,
+                "max": 430
+            }
+        },
+        {
+            "type": "encounter",
+            "name": "Bagon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+                "min": 459,
+                "max": 495
+            }
+        },
+        {
+            "type": "encounter",
+            "name": "Axew",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm610.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+                "min": 547,
+                "max": 586
+            }
+        },
+        {
+            "type": "item",
+            "name": "×1500",
+            "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png",
+            "quantity": 1500
+        },
+        {
+            "type": "item",
+            "name": "×3",
+            "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png",
+            "quantity": 3
+        }
+    ]
 }
 ```
 
-### Fields
+### Spinda Pattern Task
 
-| Field                 | Type      | Description
-|---------------------- |---------- |---------------------
-| **`name`**            | `string`  | The name of the reward Pokemon.
-| **`image`**           | `string`  | The image of the reward Pokemon.
-| **`canBeShiny`**      | `boolean` | Whether or not the reward Pokemon can be shiny.
-| **`combatPower.min`** | `int`     | The minimum combat power of the reward Pokemon.
-| **`combatPower.max`** | `int`     | The maximum combat power of the reward Pokemon.
+Special tasks that reward specific Spinda patterns:
+
+```json
+{
+    "text": "Make 5 Great Curveball Throws in a row",
+    "type": "throw",
+    "rewards": [
+        {
+            "type": "encounter",
+            "name": "Spinda 6",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f05.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+                "min": 486,
+                "max": 523
+            }
+        },
+        {
+            "type": "encounter",
+            "name": "Spinda 7",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f06.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+                "min": 486,
+                "max": 523
+            }
+        }
+    ]
+}
+```
+
+## Task Type Categories
+
+Research tasks are organized by type based on the action required:
+
+- **`catch`**: Catching Pokémon (e.g., "Catch 10 Pokémon", "Catch a Dragon-type")
+- **`throw`**: Making throws (e.g., "Make 5 Great Throws", "Make an Excellent Throw")
+- **`battle`**: Battling (e.g., "Win a raid", "Win a Trainer Battle in the GO Battle League")
+- **`explore`**: Walking and exploration (e.g., "Hatch an Egg", "Spin 5 PokéStops")
+- **`training`**: Powering up and evolving (e.g., "Power up Pokémon 5 times", "Evolve a Pokémon")
+- **`rocket`**: Team GO Rocket battles (e.g., "Defeat 3 Team GO Rocket Grunts")
+- **`buddy`**: Buddy interactions (e.g., "Earn 2 Candies walking with your buddy")
+- **`ar`**: AR photography tasks (e.g., "AR Scanning")
+- **`sponsored`**: Sponsored tasks (e.g., "Send 3 Gifts to friends")
+- **`event`**: Event-specific tasks (may be `null` for ad-hoc tasks)
+
+## Understanding Rewards
+
+### Encounter Rewards
+- You encounter one of the listed Pokémon (randomly selected if multiple options)
+- CP ranges are fixed for research encounters
+- Shiny-eligible encounters have `canBeShiny: true`
+
+### Item Rewards
+- Common items: Poké Balls, Berries, Potions, Revives
+- Valuable items: Rare Candy, Golden Razz Berries, Star Pieces, Lucky Eggs
+- Resources: Stardust, XP (represented as items with quantities)
+
+### Multiple Rewards
+When a task shows multiple rewards, you typically receive:
+- **One** of the encounter options (randomly chosen)
+- **OR** one of the item sets (randomly chosen)
+- **OR** both an encounter and items (depends on the task)
+
+Check the live data to see current reward structures!
+
+## Seasonal Information
+
+The `seasonalInfo` object provides metadata about the current season:
+
+- **`breakthroughPokemon`**: Pokémon available from Research Breakthroughs (7-day streak reward)
+- **`spindaPatterns`**: Currently available Spinda form numbers (patterns change monthly)
+- **`season`**: The current Pokémon GO season name (if parseable from the page)
+
+Example from live data:
+```json
+{
+    "breakthroughPokemon": ["Galarian Mr"],
+    "spindaPatterns": [6, 7],
+    "season": null
+}
+```
