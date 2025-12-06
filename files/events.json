@@ -639,6 +639,13 @@
                             {
                                 "text": "Claim Reward!",
                                 "reward": {
+                                    "text": " Sprigatito ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
                                     "text": " Karrablast ",
                                     "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_588_00.png"
                                 }
@@ -653,22 +660,15 @@
                             {
                                 "text": "Claim Reward!",
                                 "reward": {
-                                    "text": " Vanillite ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_582_00.png"
-                                }
-                            },
-                            {
-                                "text": "Claim Reward!",
-                                "reward": {
-                                    "text": " Sprigatito ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png"
-                                }
-                            },
-                            {
-                                "text": "Claim Reward!",
-                                "reward": {
                                     "text": " Fuecoco ",
                                     "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm909.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Vanillite ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_582_00.png"
                                 }
                             },
                             {
@@ -681,29 +681,15 @@
                             {
                                 "text": "Claim Reward!",
                                 "reward": {
-                                    "text": " Solosis ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_577_00.png"
-                                }
-                            },
-                            {
-                                "text": "Claim Reward!",
-                                "reward": {
-                                    "text": " Flabébé (White) ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fWHITE.icon.png"
-                                }
-                            },
-                            {
-                                "text": "Claim Reward!",
-                                "reward": {
-                                    "text": " Pikipek ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm731.icon.png"
-                                }
-                            },
-                            {
-                                "text": "Claim Reward!",
-                                "reward": {
                                     "text": " Jangmo-o ",
                                     "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Quaxly ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png"
                                 }
                             },
                             {
@@ -716,8 +702,22 @@
                             {
                                 "text": "Claim Reward!",
                                 "reward": {
-                                    "text": " Quaxly ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png"
+                                    "text": " Flabébé (Orange) ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fORANGE.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Solosis ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_577_00.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Pikipek ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm731.icon.png"
                                 }
                             }
                         ],
@@ -739,6 +739,18 @@
                 "hasFieldResearchTasks": true
             }
         }
+    },
+    {
+        "eventID": "pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe",
+        "name": "Kommo-o, Feraligatr, Corviknight, and Vanilluxe PokéStop Showcases",
+        "eventType": "pokestop-showcase",
+        "heading": "PokéStop Showcase",
+        "link": "https://leekduck.com/events/pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe/",
+        "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+        "start": "2025-12-06T10:00:00.000",
+        "end": "2025-12-07T20:00:00.000",
+        "timezone": "Local Time",
+        "extraData": null
     },
     {
         "eventID": "max-mondays-2025-12-08",
