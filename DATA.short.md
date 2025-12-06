@@ -13,7 +13,6 @@ Use formatted versions (`.json`) for readability; `.min.json` for size.
 - Root: array.
 - Fields: name, eggType ("1/2/5/7/10/12 km"), isAdventureSync, isGiftExchange, isRegional, image, canBeShiny, combatPower { min, max }, rarity (1–5), rarityTier (Common/Uncommon/Rare/Very Rare/Ultra Rare).
 - Example: Bulbasaur 1 km, canBeShiny, CP 637/637, rarityTier "Very Rare".
-- Hatch CP is effectively fixed for most entries (min usually equals max).
 
 ## Events
 - Root: array.
@@ -24,7 +23,7 @@ Use formatted versions (`.json`) for readability; `.min.json` for size.
   - breakthrough { ... }
   - raidbattles { bosses[] { name, image, canBeShiny }, shinies[] }
   - communityday { spawns[], bonuses[], bonusDisclaimers[], shinies[], specialresearch[] { name, step, tasks[], rewards[] } }
-  - promocodes[] (strings; present on research-style events)
+  - promocodes[] (strings)
 - Times are ISO 8601; timezone may be null or "Local Time"/region labels.
 
 ## Raids
