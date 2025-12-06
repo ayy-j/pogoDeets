@@ -189,8 +189,6 @@ pogoDeets/
 │   ├── raids.js
 │   ├── research.js
 │   └── rocketLineups.js
-├── secrets/                # Credentials (not in git)
-│   └── postgres_password.txt
 ├── combinedetails.js       # Merge enriched data
 ├── detailedscrape.js       # Event detail enrichment
 ├── scrape.js               # Main base scraper
