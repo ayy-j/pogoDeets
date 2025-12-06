@@ -375,15 +375,15 @@
                             {
                                 "text": "Catch 25 Pokémon",
                                 "reward": {
-                                    "text": " Shelmet ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_616_00.png"
+                                    "text": " Karrablast ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_588_00.png"
                                 }
                             },
                             {
                                 "text": "Make 10 Nice Throws",
                                 "reward": {
-                                    "text": " Karrablast ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_588_00.png"
+                                    "text": " Shelmet ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_616_00.png"
                                 }
                             }
                         ],
@@ -393,7 +393,7 @@
                                 "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_280_00.png"
                             },
                             {
-                                "text": "×1",
+                                "text": "×2",
                                 "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
                             },
                             {
@@ -434,7 +434,7 @@
                                 "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_158_00.png"
                             },
                             {
-                                "text": "×1",
+                                "text": "×2",
                                 "image": "https://cdn.leekduck.com/assets/img/items/Star%20Piece.png"
                             },
                             {
@@ -475,7 +475,7 @@
                                 "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_066_00.png"
                             },
                             {
-                                "text": "×1",
+                                "text": "×2",
                                 "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
                             },
                             {
@@ -491,8 +491,8 @@
                             {
                                 "text": "Power up Pokémon 30 times",
                                 "reward": {
-                                    "text": " Flabébé (Red) ",
-                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fRED.icon.png"
+                                    "text": " Flabébé (Orange) ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fORANGE.icon.png"
                                 }
                             },
                             {
@@ -516,7 +516,7 @@
                                 "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_133_00.png"
                             },
                             {
-                                "text": "×1",
+                                "text": "×2",
                                 "image": "https://cdn.leekduck.com/assets/img/items/Incubator.png"
                             },
                             {
