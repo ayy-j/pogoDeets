@@ -6,8 +6,8 @@ The Research endpoint provides information about current Field Research tasks, t
 
 ## Accessing the Data
 
-- **Formatted:** [research.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.json)
-- **Minified:** [research.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json)
+- **Formatted:** [research.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.json)
+- **Minified:** [research.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.min.json)
 
 ## Data Structure
 
@@ -118,7 +118,7 @@ Rewards can be either **encounters** or **items**.
 ### JavaScript
 
 ```javascript
-fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json')
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.min.json')
   .then(response => response.json())
   .then(data => {
     // Get current breakthrough Pokémon
@@ -153,7 +153,7 @@ fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/r
 ```python
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json')
+response = requests.get('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.min.json')
 data = response.json()
 
 # Get seasonal info

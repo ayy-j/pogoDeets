@@ -6,8 +6,8 @@ The Raids endpoint provides current raid boss information across all tiers in Po
 
 ## Accessing the Data
 
-- **Formatted:** [raids.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.json)
-- **Minified:** [raids.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json)
+- **Formatted:** [raids.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.json)
+- **Minified:** [raids.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.min.json)
 
 ## Data Structure
 
@@ -103,7 +103,7 @@ Weather boosts increase the CP of caught raid bosses and make them more powerful
 ### JavaScript
 
 ```javascript
-fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json')
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.min.json')
   .then(response => response.json())
   .then(raids => {
     // Get all Tier 5 (Legendary) raids
@@ -131,7 +131,7 @@ fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/r
 ```python
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json')
+response = requests.get('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.min.json')
 raids = response.json()
 
 # Group raids by tier

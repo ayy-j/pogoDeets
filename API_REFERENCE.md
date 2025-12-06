@@ -1,8 +1,8 @@
-# pogoDeets API Reference
+# pogo API Reference
 
 **Complete data reference for Pokémon GO game data scraped from LeekDuck**
 
-This document provides a comprehensive overview of all available data endpoints, their structures, and usage patterns for the pogoDeets API.
+This document provides a comprehensive overview of all available data endpoints, their structures, and usage patterns for the pogo API.
 
 ---
 
@@ -22,14 +22,15 @@ This document provides a comprehensive overview of all available data endpoints,
 
 ## Overview
 
-pogoDeets provides five JSON endpoints containing live Pokémon GO data. Each endpoint is available in both formatted (`.json`) and minified (`.min.json`) versions.
+pogo provides five JSON endpoints containing live Pokémon GO data. Each endpoint is available in both formatted (`.json`) and minified (`.min.json`) versions.
 
-**Base URL:** `https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/`
+**Base URL:** `https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/`
 
 ### Available Endpoints
 
 | Endpoint | Formatted | Minified | Data Type |
 |----------|-----------|----------|-----------|
+| Combined | `combined.json` | `combined.min.json` | Object with all data categories |
 | Eggs | `eggs.json` | `eggs.min.json` | Array of Pokémon objects |
 | Raids | `raids.json` | `raids.min.json` | Array of raid boss objects |
 | Research | `research.json` | `research.min.json` | Object with seasonal info and task arrays |
@@ -43,20 +44,65 @@ pogoDeets provides five JSON endpoints containing live Pokémon GO data. Each en
 ### Quick Access URLs
 
 ```
-Eggs (formatted):    https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.json
-Eggs (minified):     https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.min.json
+Combined (formatted): https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.json
+Combined (minified):  https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.min.json
 
-Raids (formatted):   https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.json
-Raids (minified):    https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json
+Eggs (formatted):    https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.json
+Eggs (minified):     https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.min.json
 
-Research (formatted): https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.json
-Research (minified):  https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json
+Raids (formatted):   https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.json
+Raids (minified):    https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.min.json
 
-Rocket Lineups (formatted): https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.json
-Rocket Lineups (minified):  https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.min.json
+Research (formatted): https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.json
+Research (minified):  https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.min.json
 
-Events (formatted):  https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.json
-Events (minified):   https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json
+Rocket Lineups (formatted): https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.json
+Rocket Lineups (minified):  https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.min.json
+
+Events (formatted):  https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.json
+Events (minified):   https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.min.json
+```
+
+---
+
+## Combined Data
+
+**What it contains:** A single JSON file containing all Pokémon GO data from all categories in one convenient endpoint.
+
+**Data structure:** Object with five properties (events, raids, research, eggs, rocketLineups)
+
+### Combined Object Schema
+
+```typescript
+{
+  events: Array<EventObject>,           // All events data
+  raids: Array<RaidObject>,             // All raid bosses data
+  research: ResearchObject,             // Research tasks and seasonal info
+  eggs: Array<EggObject>,               // All egg hatches data
+  rocketLineups: Array<RocketObject>    // Team GO Rocket lineups data
+}
+```
+
+### Benefits of the Combined Endpoint
+
+- **Single Request:** Fetch all game data with one API call
+- **Reduced Latency:** Fewer network requests = faster load times
+- **Data Consistency:** All data is from the same scrape run
+- **Simplified Code:** No need to manage multiple endpoints
+
+### Usage Example
+
+```javascript
+// Fetch all Pokémon GO data at once
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log('Events:', data.events);
+    console.log('Current raids:', data.raids);
+    console.log('Field research:', data.research);
+    console.log('Egg hatches:', data.eggs);
+    console.log('Rocket lineups:', data.rocketLineups);
+  });
 ```
 
 ---
@@ -836,7 +882,7 @@ When consuming this data:
 
 ## Summary
 
-The pogoDeets API provides five comprehensive data endpoints for Pokémon GO:
+The pogo API provides five comprehensive data endpoints for Pokémon GO:
 
 1. **Eggs** - Hatch pools with rarity and flags
 2. **Raids** - Current bosses with CP ranges and types

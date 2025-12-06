@@ -6,8 +6,8 @@ The Events endpoint provides comprehensive information about current and upcomin
 
 ## Accessing the Data
 
-- **Formatted:** [events.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.json)
-- **Minified:** [events.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json)
+- **Formatted:** [events.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.json)
+- **Minified:** [events.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.min.json)
 
 ## Data Structure
 
@@ -233,7 +233,7 @@ The `extraData` object contains event-type-specific information. All events incl
 ### JavaScript
 
 ```javascript
-fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json')
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.min.json')
   .then(response => response.json())
   .then(events => {
     // Get current events (happening now)
@@ -279,7 +279,7 @@ fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/e
 import requests
 from datetime import datetime, timezone
 
-response = requests.get('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json')
+response = requests.get('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.min.json')
 events = response.json()
 
 # Parse and sort events by start time

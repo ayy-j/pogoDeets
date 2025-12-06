@@ -6,8 +6,8 @@ The Rocket Lineups endpoint provides detailed information about Team GO Rocket e
 
 ## Accessing the Data
 
-- **Formatted:** [rocketLineups.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.json)
-- **Minified:** [rocketLineups.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.min.json)
+- **Formatted:** [rocketLineups.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.json)
+- **Minified:** [rocketLineups.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.min.json)
 
 ## Data Structure
 
@@ -121,7 +121,7 @@ Each Pokémon in the lineup has the following structure:
 ### JavaScript
 
 ```javascript
-fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.min.json')
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.min.json')
   .then(response => response.json())
   .then(lineups => {
     // Get Giovanni's lineup
@@ -177,7 +177,7 @@ fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/r
 ```python
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.min.json')
+response = requests.get('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.min.json')
 lineups = response.json()
 
 # Get all grunt types

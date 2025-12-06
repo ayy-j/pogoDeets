@@ -1,10 +1,10 @@
-# pogoDeets
+# pogo
 
 A Pokémon GO data scraping pipeline that pulls current game data from LeekDuck and provides it as consumable JSON endpoints.
 
 ## Overview
 
-pogoDeets scrapes live Pokémon GO data and provides clean, structured JSON files for:
+pogo scrapes live Pokémon GO data and provides clean, structured JSON files for:
 
 - **Eggs**: What Pokémon hatch from which egg types
 - **Events**: Current and upcoming in-game events with detailed information
@@ -19,18 +19,29 @@ pogoDeets scrapes live Pokémon GO data and provides clean, structured JSON file
 All data files are available via raw GitHub URLs:
 
 | Data Type | Formatted URL | Minified URL |
-|-----------|--------------|--------------|
-| **Eggs** | [eggs.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.json) | [eggs.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.min.json) |
-| **Events** | [events.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.json) | [events.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json) |
-| **Raids** | [raids.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.json) | [raids.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json) |
-| **Research** | [research.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.json) | [research.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/research.min.json) |
-| **Rocket Lineups** | [rocketLineups.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.json) | [rocketLineups.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/rocketLineups.min.json) |
+|-----------|--------------|--------------||
+| **Combined (All Data)** | [combined.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.json) | [combined.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.min.json) |
+| **Eggs** | [eggs.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.json) | [eggs.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.min.json) |
+| **Events** | [events.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.json) | [events.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/events.min.json) |
+| **Raids** | [raids.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.json) | [raids.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.min.json) |
+| **Research** | [research.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.json) | [research.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/research.min.json) |
+| **Rocket Lineups** | [rocketLineups.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.json) | [rocketLineups.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/rocketLineups.min.json) |
 
 ### Example Usage
 
 ```javascript
-// Fetch current raid bosses
-fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/raids.min.json')
+// Fetch all data at once using the combined endpoint
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.min.json')
+  .then(response => response.json())
+  .then(data => {
+    const tier5Raids = data.raids.filter(raid => raid.tier === 'Tier 5');
+    const communityDays = data.events.filter(e => e.eventType === 'community-day');
+    console.log('Current T5 bosses:', tier5Raids.map(r => r.name));
+    console.log('Upcoming Community Days:', communityDays.length);
+  });
+
+// Or fetch individual endpoints
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/raids.min.json')
   .then(response => response.json())
   .then(raids => {
     const tier5Raids = raids.filter(raid => raid.tier === 'Tier 5');
@@ -41,9 +52,16 @@ fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/r
 ```python
 import requests
 
-# Fetch current events
-response = requests.get('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/events.min.json')
-events = response.json()
+# Fetch all data at once
+response = requests.get('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/combined.min.json')
+data = response.json()
+
+# Access all categories
+events = data['events']
+raids = data['raids']
+research = data['research']
+eggs = data['eggs']
+rocket_lineups = data['rocketLineups']
 
 # Find Community Day events
 community_days = [e for e in events if e['eventType'] == 'community-day']
@@ -69,6 +87,7 @@ The scraping pipeline runs in three stages:
 Runs `scrape.js` to collect baseline data:
 - Scrapes current events, eggs, raids, research tasks, and Rocket lineups
 - Writes both `.json` (formatted) and `.min.json` (minified) files to `files/` directory
+- Creates a combined file (`combined.json` and `combined.min.json`) containing all scraped data in a single endpoint
 - Uses `jsdom` to parse HTML from LeekDuck pages
 
 ### 2. Detail Scraping (`npm run detailedscrape`)
@@ -145,8 +164,8 @@ Each data file contains an array of objects or structured data. The structure va
 
 ```bash
 # Clone the repository
-git clone https://github.com/ayy-j/pogoDeets.git
-cd pogoDeets
+git clone https://github.com/quantNebula/pogo.git
+cd pogo
 
 # Install dependencies
 npm install
@@ -163,7 +182,7 @@ npm run scrape && npm run detailedscrape && npm run combinedetails
 ### Project Structure
 
 ```
-pogoDeets/
+pogo/
 ├── files/                  # Output directory for JSON data
 │   ├── eggs.json
 │   ├── eggs.min.json

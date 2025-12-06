@@ -6,8 +6,8 @@ The Eggs endpoint provides detailed information about which Pokémon can hatch f
 
 ## Accessing the Data
 
-- **Formatted:** [eggs.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.json)
-- **Minified:** [eggs.min.json](https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.min.json)
+- **Formatted:** [eggs.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.json)
+- **Minified:** [eggs.min.json](https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.min.json)
 
 ## Data Structure
 
@@ -65,7 +65,7 @@ The endpoint returns an **array** of Pokémon objects, where each object represe
 ### JavaScript
 
 ```javascript
-fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.min.json')
+fetch('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.min.json')
   .then(response => response.json())
   .then(eggs => {
     // Find all shiny-eligible Pokémon from 10 km eggs
@@ -86,7 +86,7 @@ fetch('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/e
 ```python
 import requests
 
-response = requests.get('https://raw.githubusercontent.com/ayy-j/pogoDeets/refs/heads/main/files/eggs.min.json')
+response = requests.get('https://raw.githubusercontent.com/quantNebula/pogo/refs/heads/main/files/eggs.min.json')
 eggs = response.json()
 
 # Group by egg type
