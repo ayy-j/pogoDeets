@@ -565,6 +565,172 @@
                                 "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
                             }
                         ]
+                    },
+                    {
+                        "name": "Meetup Check-In Timed Research: Community Day (1/3)",
+                        "step": 1,
+                        "tasks": [
+                            {
+                                "text": "Catch 10 Pokémon while in a party",
+                                "reward": {
+                                    "text": "Incense ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                                }
+                            },
+                            {
+                                "text": "Explore 1 km while in a party",
+                                "reward": {
+                                    "text": "Star Piece ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Star%20Piece.png"
+                                }
+                            },
+                            {
+                                "text": "Spin 10 PokéStops or Gyms while in a party",
+                                "reward": {
+                                    "text": "Lucky Egg ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "×10",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Meetup Check-In Timed Research: Community Day (2/3)",
+                        "step": 2,
+                        "tasks": [
+                            {
+                                "text": "Catch 10 Pokémon",
+                                "reward": {
+                                    "text": "Premium Battle Pass ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 20 Pokémon",
+                                "reward": {
+                                    "text": "Ultra Ball ×50",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 30 Pokémon",
+                                "reward": {
+                                    "text": "Lure Module ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Lure%20Module.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "×5",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Meetup Check-In Timed Research: Community Day (3/3)",
+                        "step": 3,
+                        "tasks": [
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Karrablast ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_588_00.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Shelmet ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_616_00.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Vanillite ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_582_00.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Sprigatito ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Fuecoco ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm909.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Pawmi ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm921.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Solosis ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_577_00.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Flabébé (White) ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fWHITE.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Pikipek ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm731.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Jangmo-o ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Rookidee ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm821.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Claim Reward!",
+                                "reward": {
+                                    "text": " Quaxly ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "×20",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                            },
+                            {
+                                "text": "×10",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                            }
+                        ]
                     }
                 ]
             },
