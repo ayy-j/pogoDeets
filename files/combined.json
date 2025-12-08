@@ -97,6 +97,18 @@
             "extraData": null
         },
         {
+            "eventID": "pokemon-showcase-nacli-garganacl-tyranitar-salamence",
+            "name": "Nacli, Garganacl, Tyranitar, and Salamence PokéStop Showcases",
+            "eventType": "pokestop-showcase",
+            "heading": "PokéStop Showcase",
+            "link": "https://leekduck.com/events/pokemon-showcase-nacli-garganacl-tyranitar-salamence/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+            "start": "2025-12-08T10:00:00.000",
+            "end": "2025-12-10T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "kyurem-in-5-star-raid-battles-december-2025",
             "name": "Kyurem in 5-star Raid Battles",
             "eventType": "raid-battles",
