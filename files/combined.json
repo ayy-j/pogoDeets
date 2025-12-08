@@ -1,18 +1,6 @@
 {
     "events": [
         {
-            "eventID": "pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe",
-            "name": "Kommo-o, Feraligatr, Corviknight, and Vanilluxe PokéStop Showcases",
-            "eventType": "pokestop-showcase",
-            "heading": "PokéStop Showcase",
-            "link": "https://leekduck.com/events/pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe/",
-            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
-            "start": "2025-12-06T10:00:00.000",
-            "end": "2025-12-07T20:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "max-mondays-2025-12-08",
             "name": "Dynamax Cryogonal during Max Monday",
             "eventType": "max-mondays",
@@ -301,6 +289,18 @@
             "extraData": null
         },
         {
+            "eventID": "winter-holiday-part-1-2025",
+            "name": "Winter Holiday Part 1",
+            "eventType": "event",
+            "heading": "Event",
+            "link": "https://leekduck.com/events/winter-holiday-part-1-2025/",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-18-winter-holiday-part-1-2025/winter-holiday-2025-part-1.jpg",
+            "start": "2025-12-18T10:00:00.000",
+            "end": "2025-12-24T10:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "raidhour20251224",
             "name": "Zekrom Raid Hour",
             "eventType": "raid-hour",
@@ -309,18 +309,6 @@
             "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
             "start": "2025-12-24T18:00:00.000",
             "end": "2025-12-24T19:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
-            "eventID": "winter-holiday-part-1-2025",
-            "name": "Winter Holiday Part 1",
-            "eventType": "event",
-            "heading": "Event",
-            "link": "https://leekduck.com/events/winter-holiday-part-1-2025/",
-            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-            "start": "2025-12-18T10:00:00.000",
-            "end": "2025-12-24T20:00:00.000",
             "timezone": "Local Time",
             "extraData": null
         },
@@ -356,6 +344,18 @@
             "link": "https://leekduck.com/events/winter-holiday-part-2-2025/",
             "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
             "start": "2025-12-24T10:00:00.000",
+            "end": "2025-12-29T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "go-pass-winter-holiday-2025",
+            "name": "GO Pass: Winter Holiday 2025",
+            "eventType": "go-pass",
+            "heading": "GO Pass",
+            "link": "https://leekduck.com/events/go-pass-winter-holiday-2025/",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-18-go-pass-winter-holiday-2025/snom-beanie.jpg",
+            "start": "2025-12-18T10:00:00.000",
             "end": "2025-12-29T20:00:00.000",
             "timezone": "Local Time",
             "extraData": null

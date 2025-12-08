@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe",
-        "name": "Kommo-o, Feraligatr, Corviknight, and Vanilluxe PokéStop Showcases",
-        "eventType": "pokestop-showcase",
-        "heading": "PokéStop Showcase",
-        "link": "https://leekduck.com/events/pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
-        "start": "2025-12-06T10:00:00.000",
-        "end": "2025-12-07T20:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "max-mondays-2025-12-08",
         "name": "Dynamax Cryogonal during Max Monday",
         "eventType": "max-mondays",
@@ -532,6 +515,23 @@
         }
     },
     {
+        "eventID": "winter-holiday-part-1-2025",
+        "name": "Winter Holiday Part 1",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/winter-holiday-part-1-2025/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-18-winter-holiday-part-1-2025/winter-holiday-2025-part-1.jpg",
+        "start": "2025-12-18T10:00:00.000",
+        "end": "2025-12-24T10:00:00.000",
+        "timezone": "Local Time",
+        "extraData": {
+            "generic": {
+                "hasSpawns": true,
+                "hasFieldResearchTasks": false
+            }
+        }
+    },
+    {
         "eventID": "raidhour20251224",
         "name": "Zekrom Raid Hour",
         "eventType": "raid-hour",
@@ -540,23 +540,6 @@
         "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
         "start": "2025-12-24T18:00:00.000",
         "end": "2025-12-24T19:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
-        "eventID": "winter-holiday-part-1-2025",
-        "name": "Winter Holiday Part 1",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/winter-holiday-part-1-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2025-12-18T10:00:00.000",
-        "end": "2025-12-24T20:00:00.000",
         "timezone": "Local Time",
         "extraData": {
             "generic": {
@@ -607,6 +590,23 @@
         "link": "https://leekduck.com/events/winter-holiday-part-2-2025/",
         "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
         "start": "2025-12-24T10:00:00.000",
+        "end": "2025-12-29T20:00:00.000",
+        "timezone": "Local Time",
+        "extraData": {
+            "generic": {
+                "hasSpawns": false,
+                "hasFieldResearchTasks": false
+            }
+        }
+    },
+    {
+        "eventID": "go-pass-winter-holiday-2025",
+        "name": "GO Pass: Winter Holiday 2025",
+        "eventType": "go-pass",
+        "heading": "GO Pass",
+        "link": "https://leekduck.com/events/go-pass-winter-holiday-2025/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-18-go-pass-winter-holiday-2025/snom-beanie.jpg",
+        "start": "2025-12-18T10:00:00.000",
         "end": "2025-12-29T20:00:00.000",
         "timezone": "Local Time",
         "extraData": {
@@ -893,9 +893,75 @@
         "end": "2026-01-18T17:00:00.000",
         "timezone": "Local Time",
         "extraData": {
+            "communityday": {
+                "spawns": [
+                    {
+                        "name": "Grookey",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png"
+                    }
+                ],
+                "bonuses": [
+                    {
+                        "text": "Increased Spawns",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
+                    },
+                    {
+                        "text": "3x Catch Stardust",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust3x.png"
+                    },
+                    {
+                        "text": "3-hour Incense*",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
+                    },
+                    {
+                        "text": "3-hour Lures**",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
+                    },
+                    {
+                        "text": "2x Catch Candy",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
+                    },
+                    {
+                        "text": "2x Chance to receive Candy XL from catching Pokémon",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
+                    },
+                    {
+                        "text": "One additional Special Trade can be made for a maximum of three for the day",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/trade.png"
+                    },
+                    {
+                        "text": "Trades made will require 50% less Stardust",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust2x.png"
+                    },
+                    {
+                        "text": "1-hour Lures***",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
+                    }
+                ],
+                "bonusDisclaimers": [
+                    "* This bonus excludes Daily Adventure Incense. ** This bonus excludes Golden Lure Modules.",
+                    "The following bonuses will be active from 2:00 p.m. to 9:00 p.m. local time.",
+                    "*** Lure Modules activated after 5:00 p.m. local time will last for one hour."
+                ],
+                "shinies": [
+                    {
+                        "name": "Grookey",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.s.icon.png"
+                    },
+                    {
+                        "name": "Thwackey",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm811.s.icon.png"
+                    },
+                    {
+                        "name": "Rillaboom",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm812.s.icon.png"
+                    }
+                ],
+                "specialresearch": []
+            },
             "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
+                "hasSpawns": true,
+                "hasFieldResearchTasks": true
             }
         }
     },
