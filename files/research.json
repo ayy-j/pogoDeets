@@ -1681,12 +1681,32 @@
             "rewards": [
                 {
                     "type": "encounter",
+                    "name": "Doduo",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm84.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 477,
+                        "max": 514
+                    }
+                },
+                {
+                    "type": "encounter",
                     "name": "Remoraid",
                     "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm223.icon.png",
                     "canBeShiny": true,
                     "combatPower": {
                         "min": 358,
                         "max": 391
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Ralts",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 206,
+                        "max": 231
                     }
                 },
                 {
