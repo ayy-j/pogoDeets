@@ -1,18 +1,6 @@
 {
     "events": [
         {
-            "eventID": "december-communityday2025",
-            "name": "December Community Day 2025",
-            "eventType": "community-day",
-            "heading": "Community Day",
-            "link": "https://leekduck.com/events/december-communityday2025/",
-            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-06-december-communityday2025/december-2025-community-day.jpg",
-            "start": "2025-12-06T14:00:00.000",
-            "end": "2025-12-07T17:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe",
             "name": "Kommo-o, Feraligatr, Corviknight, and Vanilluxe PokéStop Showcases",
             "eventType": "pokestop-showcase",
