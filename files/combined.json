@@ -1,18 +1,6 @@
 {
     "events": [
         {
-            "eventID": "go-battle-week-precious-paths",
-            "name": "GO Battle Week: Precious Paths",
-            "eventType": "event",
-            "heading": "Event",
-            "link": "https://leekduck.com/events/go-battle-week-precious-paths/",
-            "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-25-precious-paths.jpg",
-            "start": "2025-12-04T00:00:00.000",
-            "end": "2025-12-08T23:59:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "gbl-precious-paths_great-league_ultra-league_master-league-split-1",
             "name": "Great League, Ultra League, and Master League | Precious Paths",
             "eventType": "go-battle-league",
@@ -498,7 +486,7 @@
             "eventType": "community-day",
             "heading": "Community Day",
             "link": "https://leekduck.com/events/january-communityday2026/",
-            "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-18-january-communityday2026/grookey-community-day-january-2026.jpg",
             "start": "2026-01-18T14:00:00.000",
             "end": "2026-01-18T17:00:00.000",
             "timezone": "Local Time",
