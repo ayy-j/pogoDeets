@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "max-mondays-2025-12-08",
-        "name": "Dynamax Cryogonal during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2025-12-08/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2025-12-08T18:00:00.000",
-        "end": "2025-12-08T19:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "go-battle-week-precious-paths",
         "name": "GO Battle Week: Precious Paths",
         "eventType": "event",
@@ -957,7 +940,194 @@
                         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm812.s.icon.png"
                     }
                 ],
-                "specialresearch": []
+                "specialresearch": [
+                    {
+                        "name": "Grookey Community Day (1/3)",
+                        "step": 1,
+                        "tasks": [
+                            {
+                                "text": "Catch 3 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 5 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 10 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Make 7 Nice Throws",
+                                "reward": {
+                                    "text": "Ultra Ball ×20",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                                }
+                            },
+                            {
+                                "text": "Make 5 Great Throws",
+                                "reward": {
+                                    "text": "Lucky Egg ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
+                                }
+                            },
+                            {
+                                "text": "Make 5 Curveball Throws",
+                                "reward": {
+                                    "text": "Incense ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Grookey",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                            },
+                            {
+                                "text": "×50",
+                                "image": "https://cdn.leekduck.com/assets/img/candy/regular/810.png"
+                            },
+                            {
+                                "text": "×5",
+                                "image": "https://cdn.leekduck.com/assets/img/candy/xl/810.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grookey Community Day (2/3)",
+                        "step": 2,
+                        "tasks": [
+                            {
+                                "text": "Catch 3 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 5 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 10 Pokémon",
+                                "reward": {
+                                    "text": " Thwackey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm811.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Use 3 Berries to help catch Pokémon",
+                                "reward": {
+                                    "text": "Ultra Ball ×20",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                                }
+                            },
+                            {
+                                "text": "Use 5 Berries to help catch Pokémon",
+                                "reward": {
+                                    "text": "Charged TM ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
+                                }
+                            },
+                            {
+                                "text": "Use 7 Berries to help catch Pokémon",
+                                "reward": {
+                                    "text": "Silver Pinap Berry ×3",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Grookey",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                            },
+                            {
+                                "text": "×7500",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                            },
+                            {
+                                "text": "×3",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grookey Community Day (3/3)",
+                        "step": 3,
+                        "tasks": [
+                            {
+                                "text": "Catch 3 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 5 Pokémon",
+                                "reward": {
+                                    "text": " Grookey ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Catch 10 Pokémon",
+                                "reward": {
+                                    "text": " Rillaboom ",
+                                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm812.icon.png"
+                                }
+                            },
+                            {
+                                "text": "Spin 3 PokéStops or Gyms",
+                                "reward": {
+                                    "text": "Ultra Ball ×20",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                                }
+                            },
+                            {
+                                "text": "Spin 5 PokéStops or Gyms",
+                                "reward": {
+                                    "text": "Rocket Radar ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
+                                }
+                            },
+                            {
+                                "text": "Explore 1 km",
+                                "reward": {
+                                    "text": "Premium Battle Pass ×1",
+                                    "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
+                                }
+                            }
+                        ],
+                        "rewards": [
+                            {
+                                "text": "Grookey",
+                                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png"
+                            },
+                            {
+                                "text": "10000 XP",
+                                "image": "https://leekduck.com/assets/img/icons/xp.png"
+                            },
+                            {
+                                "text": "×1",
+                                "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                            }
+                        ]
+                    }
+                ]
             },
             "generic": {
                 "hasSpawns": true,
