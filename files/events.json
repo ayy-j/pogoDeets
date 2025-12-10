@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "gbl-precious-paths_great-league_ultra-league_master-league-split-1",
-        "name": "Great League, Ultra League, and Master League | Precious Paths",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-precious-paths_great-league_ultra-league_master-league-split-1/",
-        "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-25-precious-paths.jpg",
-        "start": "2025-12-02T21:00:00.000Z",
-        "end": "2025-12-09T21:00:00.000Z",
-        "timezone": null,
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "pokemonspotlighthour2025-12-09",
         "name": "Shieldon Spotlight Hour",
         "eventType": "pokemon-spotlight-hour",
