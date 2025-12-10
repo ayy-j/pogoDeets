@@ -1,30 +1,6 @@
 {
     "events": [
         {
-            "eventID": "pokemonspotlighthour2025-12-09",
-            "name": "Shieldon Spotlight Hour",
-            "eventType": "pokemon-spotlight-hour",
-            "heading": "Pokémon Spotlight Hour",
-            "link": "https://leekduck.com/events/pokemonspotlighthour2025-12-09/",
-            "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-            "start": "2025-12-09T18:00:00.000",
-            "end": "2025-12-09T19:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
-            "eventID": "journey-to-paldea",
-            "name": "Journey to Paldea",
-            "eventType": "event",
-            "heading": "Event",
-            "link": "https://leekduck.com/events/journey-to-paldea/",
-            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-02-journey-to-paldea/journey-to-paldea.jpg",
-            "start": "2025-12-02T10:00:00.000",
-            "end": "2025-12-09T20:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "raidhour20251210",
             "name": "Kyurem Raid Hour",
             "eventType": "raid-hour",
