@@ -1,18 +1,6 @@
 {
     "events": [
         {
-            "eventID": "gbl-precious-paths_great-league_ultra-league_master-league-split-1",
-            "name": "Great League, Ultra League, and Master League | Precious Paths",
-            "eventType": "go-battle-league",
-            "heading": "GO Battle League",
-            "link": "https://leekduck.com/events/gbl-precious-paths_great-league_ultra-league_master-league-split-1/",
-            "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-25-precious-paths.jpg",
-            "start": "2025-12-02T21:00:00.000Z",
-            "end": "2025-12-09T21:00:00.000Z",
-            "timezone": null,
-            "extraData": null
-        },
-        {
             "eventID": "pokemonspotlighthour2025-12-09",
             "name": "Shieldon Spotlight Hour",
             "eventType": "pokemon-spotlight-hour",
@@ -863,168 +851,96 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm316.icon.png"
         },
         {
-            "name": "Paldean Tauros (Combat Breed)",
+            "name": "Sandslash",
             "tier": "Tier 3",
             "canBeShiny": false,
             "types": [
                 {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
+                    "name": "ground",
+                    "image": "https://leekduck.com/assets/img/types/ground.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 1546,
-                    "max": 1621
+                    "min": 1288,
+                    "max": 1356
                 },
                 "boosted": {
-                    "min": 1932,
-                    "max": 2026
+                    "min": 1610,
+                    "max": 1696
                 }
             },
             "boostedWeather": [
-                {
-                    "name": "cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-                }
-            ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm128.fPALDEA_COMBAT.icon.png"
-        },
-        {
-            "name": "Paldean Blaze Tauros",
-            "tier": "Tier 3",
-            "canBeShiny": false,
-            "types": [
-                {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
-                },
-                {
-                    "name": "fire",
-                    "image": "https://leekduck.com/assets/img/types/fire.png"
-                }
-            ],
-            "combatPower": {
-                "normal": {
-                    "min": 1546,
-                    "max": 1621
-                },
-                "boosted": {
-                    "min": 1932,
-                    "max": 2026
-                }
-            },
-            "boostedWeather": [
-                {
-                    "name": "cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-                },
                 {
                     "name": "sunny",
                     "image": "https://leekduck.com/assets/img/weather/sunny.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm128.fPALDEA_BLAZE.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm28.icon.png"
         },
         {
-            "name": "Paldean Aqua Tauros",
+            "name": "Clefable",
             "tier": "Tier 3",
             "canBeShiny": false,
             "types": [
                 {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
-                },
-                {
-                    "name": "water",
-                    "image": "https://leekduck.com/assets/img/types/water.png"
+                    "name": "fairy",
+                    "image": "https://leekduck.com/assets/img/types/fairy.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 1546,
-                    "max": 1621
+                    "min": 1322,
+                    "max": 1392
                 },
                 "boosted": {
-                    "min": 1932,
-                    "max": 2026
+                    "min": 1653,
+                    "max": 1741
                 }
             },
             "boostedWeather": [
                 {
                     "name": "cloudy",
                     "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-                },
-                {
-                    "name": "rainy",
-                    "image": "https://leekduck.com/assets/img/weather/rainy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm128.fPALDEA_AQUA.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm36.icon.png"
         },
         {
-            "name": "Bombirdier",
+            "name": "Bronzong",
             "tier": "Tier 3",
-            "canBeShiny": true,
+            "canBeShiny": false,
             "types": [
                 {
-                    "name": "flying",
-                    "image": "https://leekduck.com/assets/img/types/flying.png"
+                    "name": "steel",
+                    "image": "https://leekduck.com/assets/img/types/steel.png"
                 },
                 {
-                    "name": "dark",
-                    "image": "https://leekduck.com/assets/img/types/dark.png"
+                    "name": "psychic",
+                    "image": "https://leekduck.com/assets/img/types/psychic.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 1351,
-                    "max": 1421
+                    "min": 1212,
+                    "max": 1279
                 },
                 "boosted": {
-                    "min": 1688,
-                    "max": 1777
+                    "min": 1515,
+                    "max": 1599
                 }
             },
             "boostedWeather": [
+                {
+                    "name": "snow",
+                    "image": "https://leekduck.com/assets/img/weather/snowy.png"
+                },
                 {
                     "name": "windy",
                     "image": "https://leekduck.com/assets/img/weather/windy.png"
-                },
-                {
-                    "name": "fog",
-                    "image": "https://leekduck.com/assets/img/weather/foggy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm962.icon.png"
-        },
-        {
-            "name": "Dondozo",
-            "tier": "Tier 3",
-            "canBeShiny": true,
-            "types": [
-                {
-                    "name": "water",
-                    "image": "https://leekduck.com/assets/img/types/water.png"
-                }
-            ],
-            "combatPower": {
-                "normal": {
-                    "min": 1633,
-                    "max": 1712
-                },
-                "boosted": {
-                    "min": 2041,
-                    "max": 2140
-                }
-            },
-            "boostedWeather": [
-                {
-                    "name": "rainy",
-                    "image": "https://leekduck.com/assets/img/weather/rainy.png"
-                }
-            ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm977.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm437.icon.png"
         },
         {
             "name": "Kyurem",
