@@ -456,7 +456,7 @@
         "eventType": "event",
         "heading": "Event",
         "link": "https://leekduck.com/events/winter-weekend-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-27-winter-weekend-2025/winter-weekend-eevee.jpg",
         "start": "2025-12-27T10:00:00.000",
         "end": "2025-12-28T20:00:00.000",
         "timezone": "Local Time",
@@ -485,23 +485,6 @@
         }
     },
     {
-        "eventID": "winter-holiday-part-2-2025",
-        "name": "Winter Holiday Part 2",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/winter-holiday-part-2-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2025-12-24T10:00:00.000",
-        "end": "2025-12-29T20:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "go-pass-winter-holiday-2025",
         "name": "GO Pass: Winter Holiday 2025",
         "eventType": "go-pass",
@@ -514,6 +497,23 @@
         "extraData": {
             "generic": {
                 "hasSpawns": false,
+                "hasFieldResearchTasks": false
+            }
+        }
+    },
+    {
+        "eventID": "winter-holiday-part-2-2025",
+        "name": "Winter Holiday Part 2",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/winter-holiday-part-2-2025/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-24-winter-holiday-part-2-2025/winter-holiday-2025-part-2.jpg",
+        "start": "2025-12-24T10:00:00.000",
+        "end": "2025-12-29T20:00:00.000",
+        "timezone": "Local Time",
+        "extraData": {
+            "generic": {
+                "hasSpawns": true,
                 "hasFieldResearchTasks": false
             }
         }

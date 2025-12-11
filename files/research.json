@@ -11,306 +11,93 @@
     },
     "tasks": [
         {
-            "text": "Catch 5 different species of Pokémon",
+            "text": "Catch 10 Fighting-type Pokémon",
+            "rewards": [
+                {
+                    "type": "item",
+                    "name": "×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Fast%20TM.png",
+                    "quantity": 1
+                },
+                {
+                    "type": "item",
+                    "name": "×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "text": "Power up Pokémon 5 times",
             "rewards": [
                 {
                     "type": "encounter",
-                    "name": "Nacli",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm932.icon.png",
+                    "name": "Ralts",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 206,
+                        "max": 231
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Tepig",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm498.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 428,
+                        "max": 464
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Timburr",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm532.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 524,
+                        "max": 563
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Win 3 Max Battles",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Dynamax Hitmonlee",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm106.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 1049,
+                        "max": 1104
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Dynamax Hitmonchan",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm107.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 947,
+                        "max": 999
+                    }
+                }
+            ]
+        },
+        {
+            "text": "??? (Unlocks with Global Challenge)",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Clobbopus",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm852.icon.png",
                     "canBeShiny": false,
                     "combatPower": {
-                        "min": 381,
-                        "max": 414
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Make 10 Great Throws",
-            "rewards": [
-                {
-                    "type": "encounter",
-                    "name": "Larvitar",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm246.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 411,
-                        "max": 445
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Bagon",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 459,
-                        "max": 495
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Power up Pokémon 10 times",
-            "rewards": [
-                {
-                    "type": "encounter",
-                    "name": "Nacli",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm932.icon.png",
-                    "canBeShiny": false,
-                    "combatPower": {
-                        "min": 381,
-                        "max": 414
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Catch 3 Pokémon",
-            "rewards": [
-                {
-                    "type": "encounter",
-                    "name": "Karrablast",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm588.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 469,
-                        "max": 506
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Shelmet",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm616.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 325,
-                        "max": 357
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Vanillite",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm582.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 409,
-                        "max": 443
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Sprigatito",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 401,
-                        "max": 435
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Fuecoco",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm909.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 447,
-                        "max": 483
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Pawmi",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm921.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 244,
-                        "max": 272
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Solosis",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm577.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 545,
-                        "max": 586
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Flabébé (Orange)",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fORANGE.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 421,
-                        "max": 455
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Pikipek",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm731.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 357,
-                        "max": 390
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Jangmo-o",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 382,
-                        "max": 415
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Rookidee",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm821.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 258,
-                        "max": 285
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Quaxly",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 425,
-                        "max": 460
-                    }
-                }
-            ]
-        },
-        {
-            "text": "Evolve a Pokémon",
-            "rewards": [
-                {
-                    "type": "encounter",
-                    "name": "Karrablast",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm588.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 469,
-                        "max": 506
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Shelmet",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm616.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 325,
-                        "max": 357
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Vanillite",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm582.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 409,
-                        "max": 443
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Sprigatito",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 401,
-                        "max": 435
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Fuecoco",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm909.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 447,
-                        "max": 483
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Pawmi",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm921.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 244,
-                        "max": 272
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Solosis",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm577.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 545,
-                        "max": 586
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Flabébé (White)",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm669.fWHITE.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 421,
-                        "max": 455
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Pikipek",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm731.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 357,
-                        "max": 390
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Jangmo-o",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 382,
-                        "max": 415
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Rookidee",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm821.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 258,
-                        "max": 285
-                    }
-                },
-                {
-                    "type": "encounter",
-                    "name": "Quaxly",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png",
-                    "canBeShiny": true,
-                    "combatPower": {
-                        "min": 425,
-                        "max": 460
+                        "min": 451,
+                        "max": 487
                     }
                 }
             ]
