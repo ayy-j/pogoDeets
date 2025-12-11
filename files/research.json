@@ -1330,6 +1330,16 @@
                 },
                 {
                     "type": "encounter",
+                    "name": "Trubbish",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm568.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 395,
+                        "max": 428
+                    }
+                },
+                {
+                    "type": "encounter",
                     "name": "Slugma",
                     "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm218.icon.png",
                     "canBeShiny": true,
