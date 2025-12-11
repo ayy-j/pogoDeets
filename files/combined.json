@@ -1,30 +1,6 @@
 {
     "events": [
         {
-            "eventID": "raidhour20251210",
-            "name": "Kyurem Raid Hour",
-            "eventType": "raid-hour",
-            "heading": "Raid Hour",
-            "link": "https://leekduck.com/events/raidhour20251210/",
-            "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-            "start": "2025-12-10T18:00:00.000",
-            "end": "2025-12-10T19:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
-            "eventID": "pokemon-showcase-nacli-garganacl-tyranitar-salamence",
-            "name": "Nacli, Garganacl, Tyranitar, and Salamence PokéStop Showcases",
-            "eventType": "pokestop-showcase",
-            "heading": "PokéStop Showcase",
-            "link": "https://leekduck.com/events/pokemon-showcase-nacli-garganacl-tyranitar-salamence/",
-            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
-            "start": "2025-12-08T10:00:00.000",
-            "end": "2025-12-10T20:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "kyurem-in-5-star-raid-battles-december-2025",
             "name": "Kyurem in 5-star Raid Battles",
             "eventType": "raid-battles",
@@ -374,11 +350,11 @@
         },
         {
             "eventID": "january-communitydayclassic2026",
-            "name": "January Community Day Classic",
+            "name": "Piplup Community Day Classic",
             "eventType": "community-day",
             "heading": "Community Day",
             "link": "https://leekduck.com/events/january-communitydayclassic2026/",
-            "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-04-january-communitydayclassic2026/piplup-community-day.jpg?v2",
             "start": "2026-01-04T14:00:00.000",
             "end": "2026-01-04T17:00:00.000",
             "timezone": "Local Time",
