@@ -654,7 +654,7 @@
         "eventType": "community-day",
         "heading": "Community Day",
         "link": "https://leekduck.com/events/january-communitydayclassic2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-04-january-communitydayclassic2026/piplup-community-day.jpg?v2",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-04-january-communitydayclassic2026/piplup-community-day-classic.jpg",
         "start": "2026-01-04T14:00:00.000",
         "end": "2026-01-04T17:00:00.000",
         "timezone": "Local Time",
@@ -680,12 +680,12 @@
                         "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
                     },
                     {
-                        "text": "3-hour Lures**",
-                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/luresall.png"
+                        "text": "1-hour Lures**",
+                        "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
                     }
                 ],
                 "bonusDisclaimers": [
-                    "* The three-hour Incense bonus excludes Daily Adventure Incense.<br> ** The three-hour lure bonus excludes Golden Lure Modules."
+                    "* The three-hour Incense bonus excludes Daily Adventure Incense.<br> ** Lure Modules will last for one hour and may attract the featured Pokémon. While most bonuses are only active during the three-hour event period, these will be active from 2:00 p.m. to 9:00 p.m. local time."
                 ],
                 "shinies": [
                     {
