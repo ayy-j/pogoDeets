@@ -1399,9 +1399,9 @@
                     },
                     {
                         "type": "item",
-                        "name": "×10",
+                        "name": "×5",
                         "image": "https://cdn.leekduck.com/assets/img/items/Poke%20Ball.png",
-                        "quantity": 10
+                        "quantity": 5
                     }
                 ]
             },
