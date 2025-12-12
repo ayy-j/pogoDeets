@@ -290,8 +290,8 @@
             }
         ],
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm130.fMEGA.icon.png"
-    },
-    {
+    }
+]    {
         "name": "Drowzee",
         "tier": "Shadow Tier 1",
         "canBeShiny": true,
