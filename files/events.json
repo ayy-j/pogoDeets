@@ -136,6 +136,23 @@
         }
     },
     {
+        "eventID": "pokemon-showcase-hitmonchan-hitmonlee-snorlax",
+        "name": "Hitmonchan, Hitmonlee, and Snorlax PokéStop Showcases",
+        "eventType": "pokestop-showcase",
+        "heading": "PokéStop Showcase",
+        "link": "https://leekduck.com/events/pokemon-showcase-hitmonchan-hitmonlee-snorlax/",
+        "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+        "start": "2025-12-13T10:00:00.000",
+        "end": "2025-12-14T20:00:00.000",
+        "timezone": "Local Time",
+        "extraData": {
+            "generic": {
+                "hasSpawns": false,
+                "hasFieldResearchTasks": false
+            }
+        }
+    },
+    {
         "eventID": "max-mondays-2025-12-15",
         "name": "Dynamax Kabuto during Max Monday",
         "eventType": "max-mondays",
