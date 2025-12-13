@@ -1118,8 +1118,8 @@
                 },
                 {
                     "type": "encounter",
-                    "name": "Frillish",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm592.icon.png",
+                    "name": "Frillish (Female)",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm592.fFEMALE.icon.png",
                     "canBeShiny": true,
                     "combatPower": {
                         "min": 501,
