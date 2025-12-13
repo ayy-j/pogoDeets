@@ -63,6 +63,36 @@
             ]
         },
         {
+            "text": "Power up Pokémon 10 times",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Clobbopus",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm852.icon.png",
+                    "canBeShiny": false,
+                    "combatPower": {
+                        "min": 451,
+                        "max": 487
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Win a Max Battle",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Clobbopus",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm852.icon.png",
+                    "canBeShiny": false,
+                    "combatPower": {
+                        "min": 451,
+                        "max": 487
+                    }
+                }
+            ]
+        },
+        {
             "text": "Win 3 Max Battles",
             "rewards": [
                 {
@@ -83,21 +113,6 @@
                     "combatPower": {
                         "min": 947,
                         "max": 999
-                    }
-                }
-            ]
-        },
-        {
-            "text": "??? (Unlocks with Global Challenge)",
-            "rewards": [
-                {
-                    "type": "encounter",
-                    "name": "Clobbopus",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm852.icon.png",
-                    "canBeShiny": false,
-                    "combatPower": {
-                        "min": 451,
-                        "max": 487
                     }
                 }
             ]
