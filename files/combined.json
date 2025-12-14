@@ -1,30 +1,6 @@
 {
     "events": [
         {
-            "eventID": "kyurem-in-5-star-raid-battles-december-2025",
-            "name": "Kyurem in 5-star Raid Battles",
-            "eventType": "raid-battles",
-            "heading": "Raid Battles",
-            "link": "https://leekduck.com/events/kyurem-in-5-star-raid-battles-december-2025/",
-            "image": "https://cdn.leekduck.com/assets/img/events/kyurem.jpg",
-            "start": "2025-12-04T10:00:00.000",
-            "end": "2025-12-13T10:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
-            "eventID": "mega-gyarados-in-mega-raids-december-2025",
-            "name": "Mega Gyarados in Mega Raids",
-            "eventType": "raid-battles",
-            "heading": "Raid Battles",
-            "link": "https://leekduck.com/events/mega-gyarados-in-mega-raids-december-2025/",
-            "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-            "start": "2025-12-04T10:00:00.000",
-            "end": "2025-12-13T10:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "pokemon-go-city-safari-sydney-2025",
             "name": "Sydney, Australia - Pokémon GO City Safari",
             "eventType": "city-safari",
