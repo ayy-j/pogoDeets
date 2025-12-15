@@ -121,6 +121,18 @@
             "extraData": null
         },
         {
+            "eventID": "pokemon-showcase-clobbopus-grapploct",
+            "name": "Clobbopus and Grapploct PokéStop Showcases",
+            "eventType": "pokestop-showcase",
+            "heading": "PokéStop Showcase",
+            "link": "https://leekduck.com/events/pokemon-showcase-clobbopus-grapploct/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+            "start": "2025-12-15T10:00:00.000",
+            "end": "2025-12-17T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "celestial-research-day",
             "name": "Celestial Research Day",
             "eventType": "research",
@@ -260,6 +272,18 @@
             "link": "https://leekduck.com/events/winter-holiday-part-2-2025/",
             "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-24-winter-holiday-part-2-2025/winter-holiday-2025-part-2.jpg",
             "start": "2025-12-24T10:00:00.000",
+            "end": "2025-12-29T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "best-friends-forever-timed-research",
+            "name": "Best Friends Forever Timed Research",
+            "eventType": "timed-research",
+            "heading": "Timed Research",
+            "link": "https://leekduck.com/events/best-friends-forever-timed-research/",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-15-best-friends-forever-timed-research/best-friends-forever.jpg",
+            "start": "2025-12-15T10:00:00.000",
             "end": "2025-12-29T20:00:00.000",
             "timezone": "Local Time",
             "extraData": null
