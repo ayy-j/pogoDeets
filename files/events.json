@@ -1,90 +1,5 @@
 [
     {
-        "eventID": "pokemon-go-city-safari-sydney-2025",
-        "name": "Sydney, Australia - Pokémon GO City Safari",
-        "eventType": "city-safari",
-        "heading": "City Safari",
-        "link": "https://leekduck.com/events/pokemon-go-city-safari-sydney-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-13-pokemon-go-city-safari-sydney-2025/city-safari-sydney-2025.jpg?v2",
-        "start": "2025-12-12T23:00:00.000Z",
-        "end": "2025-12-14T07:00:00.000Z",
-        "timezone": null,
-        "extraData": {
-            "generic": {
-                "hasSpawns": true,
-                "hasFieldResearchTasks": true
-            }
-        }
-    },
-    {
-        "eventID": "pokemon-go-city-safari-buenos-aires-2025",
-        "name": "Buenos Aires, Argentina - Pokémon GO City Safari",
-        "eventType": "city-safari",
-        "heading": "City Safari",
-        "link": "https://leekduck.com/events/pokemon-go-city-safari-buenos-aires-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-13-pokemon-go-city-safari-buenos-aires-2025/city-safari-buenos-aires-2025.jpg?v2",
-        "start": "2025-12-13T13:00:00.000Z",
-        "end": "2025-12-14T21:00:00.000Z",
-        "timezone": null,
-        "extraData": {
-            "generic": {
-                "hasSpawns": true,
-                "hasFieldResearchTasks": true
-            }
-        }
-    },
-    {
-        "eventID": "pokemon-go-city-safari-miami-2025",
-        "name": "Miami, USA - Pokémon GO City Safari",
-        "eventType": "city-safari",
-        "heading": "City Safari",
-        "link": "https://leekduck.com/events/pokemon-go-city-safari-miami-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-13-pokemon-go-city-safari-miami-2025/city-safari-miami-2025.jpg?v2",
-        "start": "2025-12-13T15:00:00.000Z",
-        "end": "2025-12-14T23:00:00.000Z",
-        "timezone": null,
-        "extraData": {
-            "generic": {
-                "hasSpawns": true,
-                "hasFieldResearchTasks": true
-            }
-        }
-    },
-    {
-        "eventID": "gigantamax-snorlax-max-battle-day-december-2025",
-        "name": "Gigantamax Snorlax Max Battle Day",
-        "eventType": "max-battles",
-        "heading": "Max Battles",
-        "link": "https://leekduck.com/events/gigantamax-snorlax-max-battle-day-december-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-14-gigantamax-snorlax-max-battle-day-december-2025/gigantamax-snorlax-december-2025.jpg",
-        "start": "2025-12-14T14:00:00.000",
-        "end": "2025-12-14T17:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
-        "eventID": "pokemon-showcase-hitmonchan-hitmonlee-snorlax",
-        "name": "Hitmonchan, Hitmonlee, and Snorlax PokéStop Showcases",
-        "eventType": "pokestop-showcase",
-        "heading": "PokéStop Showcase",
-        "link": "https://leekduck.com/events/pokemon-showcase-hitmonchan-hitmonlee-snorlax/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
-        "start": "2025-12-13T10:00:00.000",
-        "end": "2025-12-14T20:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "max-mondays-2025-12-15",
         "name": "Dynamax Kabuto during Max Monday",
         "eventType": "max-mondays",
@@ -192,7 +107,12 @@
         "start": "2025-12-15T10:00:00.000",
         "end": "2025-12-17T20:00:00.000",
         "timezone": "Local Time",
-        "extraData": null
+        "extraData": {
+            "generic": {
+                "hasSpawns": false,
+                "hasFieldResearchTasks": false
+            }
+        }
     },
     {
         "eventID": "celestial-research-day",
@@ -880,13 +800,13 @@
         "eventType": "event",
         "heading": "Event",
         "link": "https://leekduck.com/events/new-years-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-31-new-years-2026/new-years-2026.jpg",
         "start": "2025-12-31T10:00:00.000",
         "end": "2026-01-04T20:00:00.000",
         "timezone": "Local Time",
         "extraData": {
             "generic": {
-                "hasSpawns": false,
+                "hasSpawns": true,
                 "hasFieldResearchTasks": false
             }
         }
