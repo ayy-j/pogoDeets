@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "max-mondays-2025-12-15",
-        "name": "Dynamax Kabuto during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2025-12-15/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2025-12-15T18:00:00.000",
-        "end": "2025-12-15T19:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "gbl-precious-paths_ultra-league_scroll-cup-great-league-edition",
         "name": "Ultra League and Scroll Cup: Great League Edition | Precious Paths",
         "eventType": "go-battle-league",
