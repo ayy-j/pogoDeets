@@ -337,12 +337,12 @@
             "extraData": null
         },
         {
-            "eventID": "raid-day-january-2026",
-            "name": "Raid Day",
+            "eventID": "kyurem-fusion-raid-day",
+            "name": "Kyurem Fusion Raid Day",
             "eventType": "raid-day",
             "heading": "Raid Day",
-            "link": "https://leekduck.com/events/raid-day-january-2026/",
-            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "link": "https://leekduck.com/events/kyurem-fusion-raid-day/",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-10-kyurem-fusion-raid-day/fusion-raid-day.jpg",
             "start": "2026-01-10T14:00:00.000",
             "end": "2026-01-10T17:00:00.000",
             "timezone": "Local Time",
