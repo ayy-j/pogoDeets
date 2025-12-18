@@ -313,6 +313,18 @@
             "extraData": null
         },
         {
+            "eventID": "pinch-perfect-2026",
+            "name": "Pinch Perfect",
+            "eventType": "event",
+            "heading": "Event",
+            "link": "https://leekduck.com/events/pinch-perfect-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-06-pinch-perfect-2026/pinch-perfect-2026.jpg",
+            "start": "2026-01-06T10:00:00.000",
+            "end": "2026-01-11T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "gbl-precious-paths_ultra-league_sunshine-cup-great-league-edition",
             "name": "Ultra League and Sunshine Cup: Great League Edition | Precious Paths",
             "eventType": "go-battle-league",
@@ -1167,113 +1179,6 @@
             "season": null
         },
         "tasks": [
-            {
-                "text": "Catch 10 Fighting-type Pokémon",
-                "rewards": [
-                    {
-                        "type": "item",
-                        "name": "×1",
-                        "image": "https://cdn.leekduck.com/assets/img/items/Fast%20TM.png",
-                        "quantity": 1
-                    },
-                    {
-                        "type": "item",
-                        "name": "×1",
-                        "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png",
-                        "quantity": 1
-                    }
-                ]
-            },
-            {
-                "text": "Power up Pokémon 5 times",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Ralts",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 206,
-                            "max": 231
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Tepig",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm498.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 428,
-                            "max": 464
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Timburr",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm532.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 524,
-                            "max": 563
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Power up Pokémon 10 times",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Clobbopus",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm852.icon.png",
-                        "canBeShiny": false,
-                        "combatPower": {
-                            "min": 451,
-                            "max": 487
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Win a Max Battle",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Clobbopus",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm852.icon.png",
-                        "canBeShiny": false,
-                        "combatPower": {
-                            "min": 451,
-                            "max": 487
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Win 3 Max Battles",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Dynamax Hitmonlee",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm106.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 1049,
-                            "max": 1104
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Dynamax Hitmonchan",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm107.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 947,
-                            "max": 999
-                        }
-                    }
-                ]
-            },
             {
                 "text": "Catch 7 Pokémon",
                 "type": "catch",
