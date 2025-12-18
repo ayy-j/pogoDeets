@@ -136,13 +136,41 @@
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm559.icon.png"
     },
     {
-        "name": "Rhydon",
+        "name": "Sudowoodo",
         "tier": "Tier 3",
-        "canBeShiny": false,
+        "canBeShiny": true,
         "types": [
             {
-                "name": "ground",
-                "image": "https://leekduck.com/assets/img/types/ground.png"
+                "name": "rock",
+                "image": "https://leekduck.com/assets/img/types/rock.png"
+            }
+        ],
+        "combatPower": {
+            "normal": {
+                "min": 1162,
+                "max": 1227
+            },
+            "boosted": {
+                "min": 1452,
+                "max": 1534
+            }
+        },
+        "boostedWeather": [
+            {
+                "name": "partly cloudy",
+                "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
+            }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm185.fWINTER_2025.icon.png"
+    },
+    {
+        "name": "Hisuian Avalugg",
+        "tier": "Tier 3",
+        "canBeShiny": true,
+        "types": [
+            {
+                "name": "ice",
+                "image": "https://leekduck.com/assets/img/types/ice.png"
             },
             {
                 "name": "rock",
@@ -151,56 +179,28 @@
         ],
         "combatPower": {
             "normal": {
-                "min": 1736,
-                "max": 1816
+                "min": 1892,
+                "max": 1975
             },
             "boosted": {
-                "min": 2170,
-                "max": 2270
+                "min": 2365,
+                "max": 2469
             }
         },
         "boostedWeather": [
             {
-                "name": "sunny",
-                "image": "https://leekduck.com/assets/img/weather/sunny.png"
+                "name": "snow",
+                "image": "https://leekduck.com/assets/img/weather/snowy.png"
             },
             {
                 "name": "partly cloudy",
                 "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
             }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm112.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm713.fHISUIAN.icon.png"
     },
     {
-        "name": "Hariyama",
-        "tier": "Tier 3",
-        "canBeShiny": false,
-        "types": [
-            {
-                "name": "fighting",
-                "image": "https://leekduck.com/assets/img/types/fighting.png"
-            }
-        ],
-        "combatPower": {
-            "normal": {
-                "min": 1537,
-                "max": 1616
-            },
-            "boosted": {
-                "min": 1921,
-                "max": 2020
-            }
-        },
-        "boostedWeather": [
-            {
-                "name": "cloudy",
-                "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-            }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm297.icon.png"
-    },
-    {
-        "name": "Crustle",
+        "name": "Charjabug",
         "tier": "Tier 3",
         "canBeShiny": false,
         "types": [
@@ -209,31 +209,27 @@
                 "image": "https://leekduck.com/assets/img/types/bug.png"
             },
             {
-                "name": "rock",
-                "image": "https://leekduck.com/assets/img/types/rock.png"
+                "name": "electric",
+                "image": "https://leekduck.com/assets/img/types/electric.png"
             }
         ],
         "combatPower": {
             "normal": {
-                "min": 1381,
-                "max": 1452
+                "min": 912,
+                "max": 970
             },
             "boosted": {
-                "min": 1726,
-                "max": 1815
+                "min": 1140,
+                "max": 1212
             }
         },
         "boostedWeather": [
             {
                 "name": "rainy",
                 "image": "https://leekduck.com/assets/img/weather/rainy.png"
-            },
-            {
-                "name": "partly cloudy",
-                "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
             }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm558.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm737.fWINTER_2025.icon.png"
     },
     {
         "name": "Reshiram",

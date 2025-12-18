@@ -11,6 +11,72 @@
     },
     "tasks": [
         {
+            "text": "Catch 10 Pokémon",
+            "rewards": [
+                {
+                    "type": "item",
+                    "name": "×1500",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png",
+                    "quantity": 1500
+                }
+            ]
+        },
+        {
+            "text": "Catch 15 Pokémon",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Pikachu with a Holiday Hat",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cHOLIDAY_2016.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 369,
+                        "max": 402
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Pikachu wearing holiday attire",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cHOLIDAY_2023.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 369,
+                        "max": 402
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Send 15 Gifts to friends",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Spheal wearing a holiday scarf",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 379,
+                        "max": 412
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Send 5 Gifts to friends",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Delibird",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm225.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 433,
+                        "max": 469
+                    }
+                }
+            ]
+        },
+        {
             "text": "Catch 7 Pokémon",
             "type": "catch",
             "rewards": [

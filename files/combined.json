@@ -1,30 +1,6 @@
 {
     "events": [
         {
-            "eventID": "raidhour20251217",
-            "name": "Reshiram Raid Hour",
-            "eventType": "raid-hour",
-            "heading": "Raid Hour",
-            "link": "https://leekduck.com/events/raidhour20251217/",
-            "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-            "start": "2025-12-17T18:00:00.000",
-            "end": "2025-12-17T19:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
-            "eventID": "pokemon-showcase-clobbopus-grapploct",
-            "name": "Clobbopus and Grapploct PokéStop Showcases",
-            "eventType": "pokestop-showcase",
-            "heading": "PokéStop Showcase",
-            "link": "https://leekduck.com/events/pokemon-showcase-clobbopus-grapploct/",
-            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
-            "start": "2025-12-15T10:00:00.000",
-            "end": "2025-12-17T20:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "celestial-research-day",
             "name": "Celestial Research Day",
             "eventType": "research",
@@ -277,6 +253,30 @@
             "extraData": null
         },
         {
+            "eventID": "max-mondays-2025-01-05",
+            "name": "Dynamax Drampa during Max Monday",
+            "eventType": "max-mondays",
+            "heading": "Max Mondays",
+            "link": "https://leekduck.com/events/max-mondays-2025-01-05/",
+            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+            "start": "2026-01-05T18:00:00.000",
+            "end": "2026-01-05T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "max-mondays-2026-01-05",
+            "name": "Dynamax Drampa during Max Monday",
+            "eventType": "max-mondays",
+            "heading": "Max Mondays",
+            "link": "https://leekduck.com/events/max-mondays-2026-01-05/",
+            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+            "start": "2026-01-05T18:00:00.000",
+            "end": "2026-01-05T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "go-pass-december-2025",
             "name": "GO Pass: December",
             "eventType": "go-pass",
@@ -298,6 +298,30 @@
             "start": "2025-12-30T21:00:00.000Z",
             "end": "2026-01-06T21:00:00.000Z",
             "timezone": null,
+            "extraData": null
+        },
+        {
+            "eventID": "pokemonspotlighthour2026-01-06",
+            "name": "Barboach Spotlight Hour",
+            "eventType": "pokemon-spotlight-hour",
+            "heading": "Pokémon Spotlight Hour",
+            "link": "https://leekduck.com/events/pokemonspotlighthour2026-01-06/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+            "start": "2026-01-06T18:00:00.000",
+            "end": "2026-01-06T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "raidhour20260107",
+            "name": "Genesect (Burn Drive), Genesect (Chill Drive) Raid Hour",
+            "eventType": "raid-hour",
+            "heading": "Raid Hour",
+            "link": "https://leekduck.com/events/raidhour20260107/",
+            "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+            "start": "2026-01-07T18:00:00.000",
+            "end": "2026-01-07T19:00:00.000",
+            "timezone": "Local Time",
             "extraData": null
         },
         {
@@ -325,6 +349,30 @@
             "extraData": null
         },
         {
+            "eventID": "max-mondays-2025-01-12",
+            "name": "Dynamax Caterpie during Max Monday",
+            "eventType": "max-mondays",
+            "heading": "Max Mondays",
+            "link": "https://leekduck.com/events/max-mondays-2025-01-12/",
+            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+            "start": "2026-01-12T18:00:00.000",
+            "end": "2026-01-12T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "max-mondays-2026-01-12",
+            "name": "Dynamax Caterpie during Max Monday",
+            "eventType": "max-mondays",
+            "heading": "Max Mondays",
+            "link": "https://leekduck.com/events/max-mondays-2026-01-12/",
+            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+            "start": "2026-01-12T18:00:00.000",
+            "end": "2026-01-12T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "gbl-precious-paths_ultra-league_sunshine-cup-great-league-edition",
             "name": "Ultra League and Sunshine Cup: Great League Edition | Precious Paths",
             "eventType": "go-battle-league",
@@ -337,6 +385,54 @@
             "extraData": null
         },
         {
+            "eventID": "pokemonspotlighthour2026-01-13",
+            "name": "Mareep Spotlight Hour",
+            "eventType": "pokemon-spotlight-hour",
+            "heading": "Pokémon Spotlight Hour",
+            "link": "https://leekduck.com/events/pokemonspotlighthour2026-01-13/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+            "start": "2026-01-13T18:00:00.000",
+            "end": "2026-01-13T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "raidhour20260114",
+            "name": "Genesect (Burn Drive), Genesect (Chill Drive) Raid Hour",
+            "eventType": "raid-hour",
+            "heading": "Raid Hour",
+            "link": "https://leekduck.com/events/raidhour20260114/",
+            "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+            "start": "2026-01-14T18:00:00.000",
+            "end": "2026-01-14T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "genesect-burn-drive-genesect-chill-drive-in-5-star-raid-battles-january-2026",
+            "name": "Genesect (Burn Drive), Genesect (Chill Drive) in 5-star Raid Battles",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/genesect-burn-drive-genesect-chill-drive-in-5-star-raid-battles-january-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-05T10:00:00.000",
+            "end": "2026-01-16T10:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "mega-blaziken-in-mega-raids-january-2026",
+            "name": "Mega Blaziken in Mega Raids",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/mega-blaziken-in-mega-raids-january-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+            "start": "2026-01-05T10:00:00.000",
+            "end": "2026-01-16T10:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "january-communityday2026",
             "name": "Grookey Community Day",
             "eventType": "community-day",
@@ -345,6 +441,30 @@
             "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-18-january-communityday2026/grookey-community-day-january-2026.jpg",
             "start": "2026-01-18T14:00:00.000",
             "end": "2026-01-18T17:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "high-zaptitude-2026",
+            "name": "High Zaptitude",
+            "eventType": "event",
+            "heading": "Event",
+            "link": "https://leekduck.com/events/high-zaptitude-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-13T10:00:00.000",
+            "end": "2026-01-18T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "max-mondays-2026-01-19",
+            "name": "Dynamax Beldum during Max Monday",
+            "eventType": "max-mondays",
+            "heading": "Max Mondays",
+            "link": "https://leekduck.com/events/max-mondays-2026-01-19/",
+            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+            "start": "2026-01-19T18:00:00.000",
+            "end": "2026-01-19T19:00:00.000",
             "timezone": "Local Time",
             "extraData": null
         },
@@ -361,6 +481,30 @@
             "extraData": null
         },
         {
+            "eventID": "pokemonspotlighthour2026-01-20",
+            "name": "Hatenna Spotlight Hour",
+            "eventType": "pokemon-spotlight-hour",
+            "heading": "Pokémon Spotlight Hour",
+            "link": "https://leekduck.com/events/pokemonspotlighthour2026-01-20/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+            "start": "2026-01-20T18:00:00.000",
+            "end": "2026-01-20T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "raidhour20260121",
+            "name": "Thundurus (Incarnate Forme) Raid Hour",
+            "eventType": "raid-hour",
+            "heading": "Raid Hour",
+            "link": "https://leekduck.com/events/raidhour20260121/",
+            "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+            "start": "2026-01-21T18:00:00.000",
+            "end": "2026-01-21T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "shadow-raid-day-january-2026",
             "name": "Shadow Raid Day",
             "eventType": "raid-day",
@@ -369,6 +513,66 @@
             "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
             "start": "2026-01-24T14:00:00.000",
             "end": "2026-01-24T17:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "mega-sceptile-in-mega-raids-january-2026",
+            "name": "Mega Sceptile in Mega Raids",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/mega-sceptile-in-mega-raids-january-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+            "start": "2026-01-16T10:00:00.000",
+            "end": "2026-01-25T10:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "thundurus-incarnate-forme-in-5-star-raid-battles-january-2026",
+            "name": "Thundurus (Incarnate Forme) in 5-star Raid Battles",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/thundurus-incarnate-forme-in-5-star-raid-battles-january-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-16T10:00:00.000",
+            "end": "2026-01-25T10:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "precious-pals-2026",
+            "name": "Precious Pals",
+            "eventType": "event",
+            "heading": "Event",
+            "link": "https://leekduck.com/events/precious-pals-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-20T10:00:00.000",
+            "end": "2026-01-25T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "precious-pals-taken-over-2026",
+            "name": "Precious Pals: Taken Over",
+            "eventType": "team-go-rocket",
+            "heading": "Team GO Rocket",
+            "link": "https://leekduck.com/events/precious-pals-taken-over-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-23T10:00:00.000",
+            "end": "2026-01-25T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "max-mondays-2026-01-26",
+            "name": "Dynamax Roggenrola during Max Monday",
+            "eventType": "max-mondays",
+            "heading": "Max Mondays",
+            "link": "https://leekduck.com/events/max-mondays-2026-01-26/",
+            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+            "start": "2026-01-26T18:00:00.000",
+            "end": "2026-01-26T19:00:00.000",
             "timezone": "Local Time",
             "extraData": null
         },
@@ -385,6 +589,30 @@
             "extraData": null
         },
         {
+            "eventID": "pokemonspotlighthour2026-01-27",
+            "name": "Foongus Spotlight Hour",
+            "eventType": "pokemon-spotlight-hour",
+            "heading": "Pokémon Spotlight Hour",
+            "link": "https://leekduck.com/events/pokemonspotlighthour2026-01-27/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+            "start": "2026-01-27T18:00:00.000",
+            "end": "2026-01-27T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "raidhour20260128",
+            "name": "Tornadus (Incarnate Forme) Raid Hour",
+            "eventType": "raid-hour",
+            "heading": "Raid Hour",
+            "link": "https://leekduck.com/events/raidhour20260128/",
+            "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+            "start": "2026-01-28T18:00:00.000",
+            "end": "2026-01-28T19:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "february-communityday2026",
             "name": "February Community Day",
             "eventType": "community-day",
@@ -393,6 +621,30 @@
             "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
             "start": "2026-02-01T14:00:00.000",
             "end": "2026-02-01T17:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "into-the-depths-2026",
+            "name": "Into the Depths",
+            "eventType": "event",
+            "heading": "Event",
+            "link": "https://leekduck.com/events/into-the-depths-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-27T10:00:00.000",
+            "end": "2026-02-01T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "dynamax-weekend-2026",
+            "name": "Dynamax Weekend",
+            "eventType": "event",
+            "heading": "Event",
+            "link": "https://leekduck.com/events/dynamax-weekend-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-31T10:00:00.000",
+            "end": "2026-02-01T20:00:00.000",
             "timezone": "Local Time",
             "extraData": null
         },
@@ -409,6 +661,18 @@
             "extraData": null
         },
         {
+            "eventID": "shadow-cresselia-in-shadow-raids-january-february-2026",
+            "name": "Shadow Cresselia in Shadow Raids",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/shadow-cresselia-in-shadow-raids-january-february-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-02T06:00:00.000",
+            "end": "2026-02-01T22:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "gbl-precious-paths_great-league_ultra-league_master-league-split-3",
             "name": "Great League, Ultra League, and Master League | Precious Paths",
             "eventType": "go-battle-league",
@@ -418,6 +682,30 @@
             "start": "2026-01-27T21:00:00.000Z",
             "end": "2026-02-03T21:00:00.000Z",
             "timezone": null,
+            "extraData": null
+        },
+        {
+            "eventID": "mega-ampharos-in-mega-raids-january-2026",
+            "name": "Mega Ampharos in Mega Raids",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/mega-ampharos-in-mega-raids-january-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+            "start": "2026-01-25T10:00:00.000",
+            "end": "2026-02-04T10:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
+            "eventID": "tornadus-incarnate-forme-in-5-star-raid-battles-january-2026",
+            "name": "Tornadus (Incarnate Forme) in 5-star Raid Battles",
+            "eventType": "raid-battles",
+            "heading": "Raid Battles",
+            "link": "https://leekduck.com/events/tornadus-incarnate-forme-in-5-star-raid-battles-january-2026/",
+            "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+            "start": "2026-01-25T10:00:00.000",
+            "end": "2026-02-04T10:00:00.000",
+            "timezone": "Local Time",
             "extraData": null
         },
         {
@@ -727,13 +1015,41 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm559.icon.png"
         },
         {
-            "name": "Rhydon",
+            "name": "Sudowoodo",
             "tier": "Tier 3",
-            "canBeShiny": false,
+            "canBeShiny": true,
             "types": [
                 {
-                    "name": "ground",
-                    "image": "https://leekduck.com/assets/img/types/ground.png"
+                    "name": "rock",
+                    "image": "https://leekduck.com/assets/img/types/rock.png"
+                }
+            ],
+            "combatPower": {
+                "normal": {
+                    "min": 1162,
+                    "max": 1227
+                },
+                "boosted": {
+                    "min": 1452,
+                    "max": 1534
+                }
+            },
+            "boostedWeather": [
+                {
+                    "name": "partly cloudy",
+                    "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
+                }
+            ],
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm185.fWINTER_2025.icon.png"
+        },
+        {
+            "name": "Hisuian Avalugg",
+            "tier": "Tier 3",
+            "canBeShiny": true,
+            "types": [
+                {
+                    "name": "ice",
+                    "image": "https://leekduck.com/assets/img/types/ice.png"
                 },
                 {
                     "name": "rock",
@@ -742,56 +1058,28 @@
             ],
             "combatPower": {
                 "normal": {
-                    "min": 1736,
-                    "max": 1816
+                    "min": 1892,
+                    "max": 1975
                 },
                 "boosted": {
-                    "min": 2170,
-                    "max": 2270
+                    "min": 2365,
+                    "max": 2469
                 }
             },
             "boostedWeather": [
                 {
-                    "name": "sunny",
-                    "image": "https://leekduck.com/assets/img/weather/sunny.png"
+                    "name": "snow",
+                    "image": "https://leekduck.com/assets/img/weather/snowy.png"
                 },
                 {
                     "name": "partly cloudy",
                     "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm112.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm713.fHISUIAN.icon.png"
         },
         {
-            "name": "Hariyama",
-            "tier": "Tier 3",
-            "canBeShiny": false,
-            "types": [
-                {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
-                }
-            ],
-            "combatPower": {
-                "normal": {
-                    "min": 1537,
-                    "max": 1616
-                },
-                "boosted": {
-                    "min": 1921,
-                    "max": 2020
-                }
-            },
-            "boostedWeather": [
-                {
-                    "name": "cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-                }
-            ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm297.icon.png"
-        },
-        {
-            "name": "Crustle",
+            "name": "Charjabug",
             "tier": "Tier 3",
             "canBeShiny": false,
             "types": [
@@ -800,31 +1088,27 @@
                     "image": "https://leekduck.com/assets/img/types/bug.png"
                 },
                 {
-                    "name": "rock",
-                    "image": "https://leekduck.com/assets/img/types/rock.png"
+                    "name": "electric",
+                    "image": "https://leekduck.com/assets/img/types/electric.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 1381,
-                    "max": 1452
+                    "min": 912,
+                    "max": 970
                 },
                 "boosted": {
-                    "min": 1726,
-                    "max": 1815
+                    "min": 1140,
+                    "max": 1212
                 }
             },
             "boostedWeather": [
                 {
                     "name": "rainy",
                     "image": "https://leekduck.com/assets/img/weather/rainy.png"
-                },
-                {
-                    "name": "partly cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm558.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm737.fWINTER_2025.icon.png"
         },
         {
             "name": "Reshiram",
@@ -1179,6 +1463,72 @@
             "season": null
         },
         "tasks": [
+            {
+                "text": "Catch 10 Pokémon",
+                "rewards": [
+                    {
+                        "type": "item",
+                        "name": "×1500",
+                        "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png",
+                        "quantity": 1500
+                    }
+                ]
+            },
+            {
+                "text": "Catch 15 Pokémon",
+                "rewards": [
+                    {
+                        "type": "encounter",
+                        "name": "Pikachu with a Holiday Hat",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cHOLIDAY_2016.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 369,
+                            "max": 402
+                        }
+                    },
+                    {
+                        "type": "encounter",
+                        "name": "Pikachu wearing holiday attire",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cHOLIDAY_2023.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 369,
+                            "max": 402
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Send 15 Gifts to friends",
+                "rewards": [
+                    {
+                        "type": "encounter",
+                        "name": "Spheal wearing a holiday scarf",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 379,
+                            "max": 412
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Send 5 Gifts to friends",
+                "rewards": [
+                    {
+                        "type": "encounter",
+                        "name": "Delibird",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm225.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 433,
+                            "max": 469
+                        }
+                    }
+                ]
+            },
             {
                 "text": "Catch 7 Pokémon",
                 "type": "catch",
