@@ -697,23 +697,6 @@
         }
     },
     {
-        "eventID": "max-mondays-2025-01-05",
-        "name": "Dynamax Drampa during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2025-01-05/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-01-05T18:00:00.000",
-        "end": "2026-01-05T19:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "max-mondays-2026-01-05",
         "name": "Dynamax Drampa during Max Monday",
         "eventType": "max-mondays",
@@ -841,23 +824,6 @@
         "extraData": {
             "generic": {
                 "hasSpawns": true,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
-        "eventID": "max-mondays-2025-01-12",
-        "name": "Dynamax Caterpie during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2025-01-12/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-01-12T18:00:00.000",
-        "end": "2026-01-12T19:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
                 "hasFieldResearchTasks": false
             }
         }
@@ -1587,31 +1553,14 @@
         }
     },
     {
-        "eventID": "dynamax-weekend-2026",
+        "eventID": "dynamax-weekend-february-2026",
         "name": "Dynamax Weekend",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/dynamax-weekend-2026/",
+        "eventType": "max-battles",
+        "heading": "Max Battles",
+        "link": "https://leekduck.com/events/dynamax-weekend-february-2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
         "start": "2026-01-31T10:00:00.000",
         "end": "2026-02-01T20:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
-        "eventID": "max-battle-weekend-february-2026",
-        "name": "Max Battle Weekend",
-        "eventType": "max-battles",
-        "heading": "Max Battles",
-        "link": "https://leekduck.com/events/max-battle-weekend-february-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2026-01-31T06:00:00.000",
-        "end": "2026-02-01T21:00:00.000",
         "timezone": "Local Time",
         "extraData": {
             "generic": {
@@ -1646,6 +1595,23 @@
                     }
                 ]
             },
+            "generic": {
+                "hasSpawns": false,
+                "hasFieldResearchTasks": false
+            }
+        }
+    },
+    {
+        "eventID": "go-pass-january-2026",
+        "name": "GO Pass: January",
+        "eventType": "go-pass",
+        "heading": "GO Pass",
+        "link": "https://leekduck.com/events/go-pass-january-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-01-06-go-pass-january-2026/go-pass-january-2026.jpg",
+        "start": "2026-01-06T10:00:00.000",
+        "end": "2026-02-03T10:00:00.000",
+        "timezone": "Local Time",
+        "extraData": {
             "generic": {
                 "hasSpawns": false,
                 "hasFieldResearchTasks": false
