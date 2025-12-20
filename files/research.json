@@ -77,6 +77,281 @@
             ]
         },
         {
+            "text": "Catch 5 Pokémon",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Use 3 Pinap Berries while catching Pokémon",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Make 3 Nice Curveball Throws",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Make 5 Curveball Throws",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Make 3 Great Throws",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Spin 2 PokéStops or Gyms",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Battle in a Gym",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Use a supereffective Charged Attack",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Power up Pokémon 3 times",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Earn 3 hearts with your buddy",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Send 3 Gifts and add a sticker to each",
+            "rewards": [
+                {
+                    "type": "encounter",
+                    "name": "Lunatone",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                },
+                {
+                    "type": "encounter",
+                    "name": "Solrock",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
+                    "canBeShiny": true,
+                    "combatPower": {
+                        "min": 946,
+                        "max": 997
+                    }
+                }
+            ]
+        },
+        {
             "text": "Catch 7 Pokémon",
             "type": "catch",
             "rewards": [
