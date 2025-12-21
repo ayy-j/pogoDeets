@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "celestial-research-day",
-        "name": "Celestial Research Day",
-        "eventType": "research",
-        "heading": "Research",
-        "link": "https://leekduck.com/events/celestial-research-day/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-20-celestial-research-day/celestial-research-day.jpg",
-        "start": "2025-12-20T14:00:00.000",
-        "end": "2025-12-20T17:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "pokemon-showcase-lunatone-solrock",
         "name": "Lunatone and Solrock PokéStop Showcases",
         "eventType": "pokestop-showcase",
