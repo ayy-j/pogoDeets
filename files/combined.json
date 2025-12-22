@@ -97,6 +97,18 @@
             "extraData": null
         },
         {
+            "eventID": "pokemon-showcase-sudowoodo-charjabug",
+            "name": "Sudowoodo and Charjabug PokéStop Showcases",
+            "eventType": "pokestop-showcase",
+            "heading": "PokéStop Showcase",
+            "link": "https://leekduck.com/events/pokemon-showcase-sudowoodo-charjabug/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+            "start": "2025-12-22T10:00:00.000",
+            "end": "2025-12-24T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "winter-weekend-2025",
             "name": "Winter Weekend",
             "eventType": "event",
