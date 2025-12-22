@@ -867,55 +867,27 @@
     ],
     "raids": [
         {
-            "name": "Machop",
+            "name": "Marill",
             "tier": "Tier 1",
             "canBeShiny": true,
             "types": [
                 {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
+                    "name": "water",
+                    "image": "https://leekduck.com/assets/img/types/water.png"
+                },
+                {
+                    "name": "fairy",
+                    "image": "https://leekduck.com/assets/img/types/fairy.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 678,
-                    "max": 730
+                    "min": 229,
+                    "max": 263
                 },
                 "boosted": {
-                    "min": 848,
-                    "max": 913
-                }
-            },
-            "boostedWeather": [
-                {
-                    "name": "cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-                }
-            ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm66.icon.png"
-        },
-        {
-            "name": "Shuckle",
-            "tier": "Tier 1",
-            "canBeShiny": true,
-            "types": [
-                {
-                    "name": "bug",
-                    "image": "https://leekduck.com/assets/img/types/bug.png"
-                },
-                {
-                    "name": "rock",
-                    "image": "https://leekduck.com/assets/img/types/rock.png"
-                }
-            ],
-            "combatPower": {
-                "normal": {
-                    "min": 189,
-                    "max": 231
-                },
-                "boosted": {
-                    "min": 236,
-                    "max": 289
+                    "min": 287,
+                    "max": 329
                 }
             },
             "boostedWeather": [
@@ -924,83 +896,107 @@
                     "image": "https://leekduck.com/assets/img/weather/rainy.png"
                 },
                 {
-                    "name": "partly cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
+                    "name": "cloudy",
+                    "image": "https://leekduck.com/assets/img/weather/cloudy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm213.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm183.icon.png"
         },
         {
-            "name": "Meditite",
+            "name": "Snorunt",
             "tier": "Tier 1",
             "canBeShiny": true,
             "types": [
                 {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
-                },
-                {
-                    "name": "psychic",
-                    "image": "https://leekduck.com/assets/img/types/psychic.png"
+                    "name": "ice",
+                    "image": "https://leekduck.com/assets/img/types/ice.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 359,
-                    "max": 396
+                    "min": 465,
+                    "max": 507
                 },
                 "boosted": {
-                    "min": 449,
-                    "max": 495
+                    "min": 581,
+                    "max": 634
                 }
             },
             "boostedWeather": [
                 {
-                    "name": "cloudy",
-                    "image": "https://leekduck.com/assets/img/weather/cloudy.png"
+                    "name": "snow",
+                    "image": "https://leekduck.com/assets/img/weather/snowy.png"
+                }
+            ],
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm361.icon.png"
+        },
+        {
+            "name": "Woobat",
+            "tier": "Tier 1",
+            "canBeShiny": true,
+            "types": [
+                {
+                    "name": "psychic",
+                    "image": "https://leekduck.com/assets/img/types/psychic.png"
                 },
+                {
+                    "name": "flying",
+                    "image": "https://leekduck.com/assets/img/types/flying.png"
+                }
+            ],
+            "combatPower": {
+                "normal": {
+                    "min": 535,
+                    "max": 580
+                },
+                "boosted": {
+                    "min": 669,
+                    "max": 726
+                }
+            },
+            "boostedWeather": [
                 {
                     "name": "windy",
                     "image": "https://leekduck.com/assets/img/weather/windy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm307.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm527.icon.png"
         },
         {
-            "name": "Scraggy",
+            "name": "Cottonee",
             "tier": "Tier 1",
             "canBeShiny": true,
             "types": [
                 {
-                    "name": "dark",
-                    "image": "https://leekduck.com/assets/img/types/dark.png"
+                    "name": "grass",
+                    "image": "https://leekduck.com/assets/img/types/grass.png"
                 },
                 {
-                    "name": "fighting",
-                    "image": "https://leekduck.com/assets/img/types/fighting.png"
+                    "name": "fairy",
+                    "image": "https://leekduck.com/assets/img/types/fairy.png"
                 }
             ],
             "combatPower": {
                 "normal": {
-                    "min": 732,
-                    "max": 784
+                    "min": 362,
+                    "max": 400
                 },
                 "boosted": {
-                    "min": 915,
-                    "max": 980
+                    "min": 453,
+                    "max": 500
                 }
             },
             "boostedWeather": [
                 {
-                    "name": "fog",
-                    "image": "https://leekduck.com/assets/img/weather/foggy.png"
+                    "name": "sunny",
+                    "image": "https://leekduck.com/assets/img/weather/sunny.png"
                 },
                 {
                     "name": "cloudy",
                     "image": "https://leekduck.com/assets/img/weather/cloudy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm559.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm546.icon.png"
         },
         {
             "name": "Sudowoodo",
@@ -1099,7 +1095,7 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm737.fWINTER_2025.icon.png"
         },
         {
-            "name": "Reshiram",
+            "name": "Zekrom",
             "tier": "Tier 5",
             "canBeShiny": true,
             "types": [
@@ -1108,8 +1104,8 @@
                     "image": "https://leekduck.com/assets/img/types/dragon.png"
                 },
                 {
-                    "name": "fire",
-                    "image": "https://leekduck.com/assets/img/types/fire.png"
+                    "name": "electric",
+                    "image": "https://leekduck.com/assets/img/types/electric.png"
                 }
             ],
             "combatPower": {
@@ -1128,21 +1124,17 @@
                     "image": "https://leekduck.com/assets/img/weather/windy.png"
                 },
                 {
-                    "name": "sunny",
-                    "image": "https://leekduck.com/assets/img/weather/sunny.png"
+                    "name": "rainy",
+                    "image": "https://leekduck.com/assets/img/weather/rainy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm643.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm644.icon.png"
         },
         {
-            "name": "Mega Abomasnow",
+            "name": "Mega Glalie",
             "tier": "Mega",
             "canBeShiny": true,
             "types": [
-                {
-                    "name": "grass",
-                    "image": "https://leekduck.com/assets/img/types/grass.png"
-                },
                 {
                     "name": "ice",
                     "image": "https://leekduck.com/assets/img/types/ice.png"
@@ -1150,25 +1142,21 @@
             ],
             "combatPower": {
                 "normal": {
-                    "min": 1281,
-                    "max": 1349
+                    "min": 1138,
+                    "max": 1203
                 },
                 "boosted": {
-                    "min": 1601,
-                    "max": 1687
+                    "min": 1423,
+                    "max": 1504
                 }
             },
             "boostedWeather": [
-                {
-                    "name": "sunny",
-                    "image": "https://leekduck.com/assets/img/weather/sunny.png"
-                },
                 {
                     "name": "snow",
                     "image": "https://leekduck.com/assets/img/weather/snowy.png"
                 }
             ],
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm460.fMEGA.icon.png"
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm362.fMEGA.icon.png"
         },
         {
             "name": "Drowzee",
@@ -1513,281 +1501,6 @@
                         "combatPower": {
                             "min": 433,
                             "max": 469
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Catch 5 Pokémon",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Use 3 Pinap Berries while catching Pokémon",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Make 3 Nice Curveball Throws",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Make 5 Curveball Throws",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Make 3 Great Throws",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Spin 2 PokéStops or Gyms",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Battle in a Gym",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Use a supereffective Charged Attack",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Power up Pokémon 3 times",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Earn 3 hearts with your buddy",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    }
-                ]
-            },
-            {
-                "text": "Send 3 Gifts and add a sticker to each",
-                "rewards": [
-                    {
-                        "type": "encounter",
-                        "name": "Lunatone",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm337.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
-                        }
-                    },
-                    {
-                        "type": "encounter",
-                        "name": "Solrock",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm338.icon.png",
-                        "canBeShiny": true,
-                        "combatPower": {
-                            "min": 946,
-                            "max": 997
                         }
                     }
                 ]
