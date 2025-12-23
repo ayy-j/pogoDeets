@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "pokemon-showcase-lunatone-solrock",
-        "name": "Lunatone and Solrock PokéStop Showcases",
-        "eventType": "pokestop-showcase",
-        "heading": "PokéStop Showcase",
-        "link": "https://leekduck.com/events/pokemon-showcase-lunatone-solrock/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
-        "start": "2025-12-20T10:00:00.000",
-        "end": "2025-12-21T20:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "mega-abomasnow-in-mega-raids-december-2025",
         "name": "Mega Abomasnow in Mega Raids",
         "eventType": "raid-battles",
