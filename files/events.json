@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "gbl-precious-paths_master-league_holiday-cup-great-league-edition",
-        "name": "Master League and Holiday Cup: Great League Edition | Precious Paths",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-precious-paths_master-league_holiday-cup-great-league-edition/",
-        "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-        "start": "2025-12-16T21:00:00.000Z",
-        "end": "2025-12-23T21:00:00.000Z",
-        "timezone": null,
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "pokemonspotlighthour2025-12-23",
         "name": "Spheal Spotlight Hour",
         "eventType": "pokemon-spotlight-hour",
@@ -40,23 +23,6 @@
                     }
                 ]
             },
-            "generic": {
-                "hasSpawns": true,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
-        "eventID": "winter-holiday-part-1-2025",
-        "name": "Winter Holiday Part 1",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/winter-holiday-part-1-2025/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-12-18-winter-holiday-part-1-2025/winter-holiday-2025-part-1.jpg",
-        "start": "2025-12-18T10:00:00.000",
-        "end": "2025-12-24T10:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
             "generic": {
                 "hasSpawns": true,
                 "hasFieldResearchTasks": false
