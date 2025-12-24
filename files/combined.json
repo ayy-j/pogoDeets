@@ -1,18 +1,6 @@
 {
     "events": [
         {
-            "eventID": "max-mondays-2025-12-22",
-            "name": "Dynamax Spheal during Max Monday",
-            "eventType": "max-mondays",
-            "heading": "Max Mondays",
-            "link": "https://leekduck.com/events/max-mondays-2025-12-22/",
-            "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-            "start": "2025-12-22T18:00:00.000",
-            "end": "2025-12-22T19:00:00.000",
-            "timezone": "Local Time",
-            "extraData": null
-        },
-        {
             "eventID": "gbl-precious-paths_master-league_holiday-cup-great-league-edition",
             "name": "Master League and Holiday Cup: Great League Edition | Precious Paths",
             "eventType": "go-battle-league",
@@ -1411,6 +1399,12 @@
                         "name": "×1500",
                         "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png",
                         "quantity": 1500
+                    },
+                    {
+                        "type": "item",
+                        "name": "×1500",
+                        "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png",
+                        "quantity": 1500
                     }
                 ]
             },
@@ -1436,20 +1430,25 @@
                             "min": 369,
                             "max": 402
                         }
-                    }
-                ]
-            },
-            {
-                "text": "Send 15 Gifts to friends",
-                "rewards": [
+                    },
                     {
                         "type": "encounter",
-                        "name": "Spheal wearing a holiday scarf",
-                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+                        "name": "Pikachu with a Holiday Hat",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cHOLIDAY_2016.icon.png",
                         "canBeShiny": true,
                         "combatPower": {
-                            "min": 379,
-                            "max": 412
+                            "min": 369,
+                            "max": 402
+                        }
+                    },
+                    {
+                        "type": "encounter",
+                        "name": "Pikachu wearing holiday attire",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cHOLIDAY_2023.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 369,
+                            "max": 402
                         }
                     }
                 ]
@@ -1465,6 +1464,41 @@
                         "combatPower": {
                             "min": 433,
                             "max": 469
+                        }
+                    },
+                    {
+                        "type": "encounter",
+                        "name": "Delibird",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm225.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 433,
+                            "max": 469
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "Send 15 Gifts to friends",
+                "rewards": [
+                    {
+                        "type": "encounter",
+                        "name": "Psyduck wearing holiday attire",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm54.cHOLIDAY_2023.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 439,
+                            "max": 474
+                        }
+                    },
+                    {
+                        "type": "encounter",
+                        "name": "Spheal wearing a holiday scarf",
+                        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+                        "canBeShiny": true,
+                        "combatPower": {
+                            "min": 379,
+                            "max": 412
                         }
                     }
                 ]

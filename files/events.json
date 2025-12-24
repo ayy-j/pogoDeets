@@ -1,22 +1,5 @@
 [
     {
-        "eventID": "max-mondays-2025-12-22",
-        "name": "Dynamax Spheal during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2025-12-22/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2025-12-22T18:00:00.000",
-        "end": "2025-12-22T19:00:00.000",
-        "timezone": "Local Time",
-        "extraData": {
-            "generic": {
-                "hasSpawns": false,
-                "hasFieldResearchTasks": false
-            }
-        }
-    },
-    {
         "eventID": "gbl-precious-paths_master-league_holiday-cup-great-league-edition",
         "name": "Master League and Holiday Cup: Great League Edition | Precious Paths",
         "eventType": "go-battle-league",
