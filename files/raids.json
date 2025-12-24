@@ -1,42 +1,38 @@
 [
     {
-        "name": "Marill",
+        "name": "Alolan Sandshrew",
         "tier": "Tier 1",
         "canBeShiny": true,
         "types": [
             {
-                "name": "water",
-                "image": "https://leekduck.com/assets/img/types/water.png"
+                "name": "ice",
+                "image": "https://leekduck.com/assets/img/types/ice.png"
             },
             {
-                "name": "fairy",
-                "image": "https://leekduck.com/assets/img/types/fairy.png"
+                "name": "steel",
+                "image": "https://leekduck.com/assets/img/types/steel.png"
             }
         ],
         "combatPower": {
             "normal": {
-                "min": 229,
-                "max": 263
+                "min": 688,
+                "max": 739
             },
             "boosted": {
-                "min": 287,
-                "max": 329
+                "min": 860,
+                "max": 924
             }
         },
         "boostedWeather": [
             {
-                "name": "rainy",
-                "image": "https://leekduck.com/assets/img/weather/rainy.png"
-            },
-            {
-                "name": "cloudy",
-                "image": "https://leekduck.com/assets/img/weather/cloudy.png"
+                "name": "snow",
+                "image": "https://leekduck.com/assets/img/weather/snowy.png"
             }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm183.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm27.fALOLA.icon.png"
     },
     {
-        "name": "Snorunt",
+        "name": "Galarian Darumaka",
         "tier": "Tier 1",
         "canBeShiny": true,
         "types": [
@@ -47,12 +43,12 @@
         ],
         "combatPower": {
             "normal": {
-                "min": 465,
-                "max": 507
+                "min": 768,
+                "max": 823
             },
             "boosted": {
-                "min": 581,
-                "max": 634
+                "min": 961,
+                "max": 1030
             }
         },
         "boostedWeather": [
@@ -61,75 +57,71 @@
                 "image": "https://leekduck.com/assets/img/weather/snowy.png"
             }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm361.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm554.fGALARIAN.icon.png"
     },
     {
-        "name": "Woobat",
+        "name": "Rolycoly",
         "tier": "Tier 1",
-        "canBeShiny": true,
+        "canBeShiny": false,
         "types": [
             {
-                "name": "psychic",
-                "image": "https://leekduck.com/assets/img/types/psychic.png"
-            },
-            {
-                "name": "flying",
-                "image": "https://leekduck.com/assets/img/types/flying.png"
+                "name": "rock",
+                "image": "https://leekduck.com/assets/img/types/rock.png"
             }
         ],
         "combatPower": {
             "normal": {
-                "min": 535,
-                "max": 580
+                "min": 315,
+                "max": 349
             },
             "boosted": {
-                "min": 669,
-                "max": 726
+                "min": 393,
+                "max": 437
             }
         },
         "boostedWeather": [
+            {
+                "name": "partly cloudy",
+                "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
+            }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm837.icon.png"
+    },
+    {
+        "name": "Galarian Mr. Mime",
+        "tier": "Tier 3",
+        "canBeShiny": true,
+        "types": [
+            {
+                "name": "ice",
+                "image": "https://leekduck.com/assets/img/types/ice.png"
+            },
+            {
+                "name": "psychic",
+                "image": "https://leekduck.com/assets/img/types/psychic.png"
+            }
+        ],
+        "combatPower": {
+            "normal": {
+                "min": 1117,
+                "max": 1181
+            },
+            "boosted": {
+                "min": 1396,
+                "max": 1477
+            }
+        },
+        "boostedWeather": [
+            {
+                "name": "snow",
+                "image": "https://leekduck.com/assets/img/weather/snowy.png"
+            },
             {
                 "name": "windy",
                 "image": "https://leekduck.com/assets/img/weather/windy.png"
             }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm527.icon.png"
-    },
-    {
-        "name": "Cottonee",
-        "tier": "Tier 1",
-        "canBeShiny": true,
-        "types": [
-            {
-                "name": "grass",
-                "image": "https://leekduck.com/assets/img/types/grass.png"
-            },
-            {
-                "name": "fairy",
-                "image": "https://leekduck.com/assets/img/types/fairy.png"
-            }
-        ],
-        "combatPower": {
-            "normal": {
-                "min": 362,
-                "max": 400
-            },
-            "boosted": {
-                "min": 453,
-                "max": 500
-            }
-        },
-        "boostedWeather": [
-            {
-                "name": "sunny",
-                "image": "https://leekduck.com/assets/img/weather/sunny.png"
-            },
-            {
-                "name": "cloudy",
-                "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-            }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm546.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm122.fGALARIAN.icon.png"
     },
     {
         "name": "Sudowoodo",
@@ -160,45 +152,9 @@
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm185.fWINTER_2025.icon.png"
     },
     {
-        "name": "Hisuian Avalugg",
-        "tier": "Tier 3",
-        "canBeShiny": true,
-        "types": [
-            {
-                "name": "ice",
-                "image": "https://leekduck.com/assets/img/types/ice.png"
-            },
-            {
-                "name": "rock",
-                "image": "https://leekduck.com/assets/img/types/rock.png"
-            }
-        ],
-        "combatPower": {
-            "normal": {
-                "min": 1892,
-                "max": 1975
-            },
-            "boosted": {
-                "min": 2365,
-                "max": 2469
-            }
-        },
-        "boostedWeather": [
-            {
-                "name": "snow",
-                "image": "https://leekduck.com/assets/img/weather/snowy.png"
-            },
-            {
-                "name": "partly cloudy",
-                "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-            }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm713.fHISUIAN.icon.png"
-    },
-    {
         "name": "Charjabug",
         "tier": "Tier 3",
-        "canBeShiny": false,
+        "canBeShiny": true,
         "types": [
             {
                 "name": "bug",
