@@ -13,6 +13,18 @@
             "extraData": null
         },
         {
+            "eventID": "pokemon-showcase-eevee",
+            "name": "Eevee PokéStop Showcase",
+            "eventType": "pokestop-showcase",
+            "heading": "PokéStop Showcase",
+            "link": "https://leekduck.com/events/pokemon-showcase-eevee/",
+            "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+            "start": "2025-12-27T10:00:00.000",
+            "end": "2025-12-28T20:00:00.000",
+            "timezone": "Local Time",
+            "extraData": null
+        },
+        {
             "eventID": "max-mondays-2025-12-29",
             "name": "Dynamax Omanyte during Max Monday",
             "eventType": "max-mondays",
