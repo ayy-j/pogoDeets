@@ -772,7 +772,7 @@
     "raids": [
         {
             "name": "Alolan Sandshrew",
-            "tier": "Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -804,7 +804,7 @@
         },
         {
             "name": "Galarian Darumaka",
-            "tier": "Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -832,7 +832,7 @@
         },
         {
             "name": "Rolycoly",
-            "tier": "Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": false,
             "types": [
                 {
@@ -860,7 +860,7 @@
         },
         {
             "name": "Galarian Mr. Mime",
-            "tier": "Tier 3",
+            "tier": "3-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -896,7 +896,7 @@
         },
         {
             "name": "Sudowoodo wearing winter attire",
-            "tier": "Tier 3",
+            "tier": "3-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -924,7 +924,7 @@
         },
         {
             "name": "Charjabug wearing winter attire",
-            "tier": "Tier 3",
+            "tier": "3-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -956,7 +956,7 @@
         },
         {
             "name": "Zekrom",
-            "tier": "Tier 5",
+            "tier": "5-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -992,7 +992,7 @@
         },
         {
             "name": "Mega Glalie",
-            "tier": "Mega",
+            "tier": "Mega Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1020,7 +1020,7 @@
         },
         {
             "name": "Drowzee",
-            "tier": "Shadow Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1048,7 +1048,7 @@
         },
         {
             "name": "Ralts",
-            "tier": "Shadow Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1084,7 +1084,7 @@
         },
         {
             "name": "Bagon",
-            "tier": "Shadow Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1112,7 +1112,7 @@
         },
         {
             "name": "Snover",
-            "tier": "Shadow Tier 1",
+            "tier": "1-Star Raids",
             "canBeShiny": false,
             "types": [
                 {
@@ -1148,7 +1148,7 @@
         },
         {
             "name": "Scyther",
-            "tier": "Shadow Tier 3",
+            "tier": "3-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1184,7 +1184,7 @@
         },
         {
             "name": "Aerodactyl",
-            "tier": "Shadow Tier 3",
+            "tier": "3-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1220,7 +1220,7 @@
         },
         {
             "name": "Sableye",
-            "tier": "Shadow Tier 3",
+            "tier": "3-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
@@ -1252,7 +1252,7 @@
         },
         {
             "name": "Heatran",
-            "tier": "Shadow Tier 5",
+            "tier": "5-Star Raids",
             "canBeShiny": true,
             "types": [
                 {
